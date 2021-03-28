@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { IonicModule } from '@ionic/angular';
-import { LogoComponent } from './logo/logo.component';
+import { LogoComponent } from './illustration/logo/logo.component';
 
 @NgModule({
   imports: [IonicModule],
