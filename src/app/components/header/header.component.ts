@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit, DoCheck {
   ngDoCheck() {
     const { url } = this.router;
 
-    if (url === '/' || url === 'welcome') {
+    if (url === '/' || url === '/welcome') {
       this.showHeader = false;
     } else {
       this.showHeader = true;
