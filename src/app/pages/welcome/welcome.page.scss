@@ -15,9 +15,10 @@ ion-grid {
       align-items: flex-end;
     }
 
-    .ld {
-      transform-origin: 50% 50%;
-      transform-box: fill-box;
+    div.ld {
+      &.ld-dim {
+        animation-duration: 1.5s;
+      }
     }
   }
 }
