@@ -1,0 +1,23 @@
+ion-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  ion-row {
+    width: 100%;
+    height: 50vh;
+
+    svg {
+      animation-delay: 1s;
+    }
+
+    &:first-child {
+      align-items: flex-end;
+    }
+
+    .ld {
+      transform-origin: 50% 50%;
+      transform-box: fill-box;
+    }
+  }
+}
