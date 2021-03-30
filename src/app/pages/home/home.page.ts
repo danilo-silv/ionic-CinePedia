@@ -1,12 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CatalogService } from 'src/app/service/catalog.service';
 
 @Component({
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
 })
-export class HomePage {
+export class HomePage implements OnInit {
+  public bannerList: Array<any>;
 
-  constructor() {}
+  constructor(private catalogService: CatalogService) {}
 
+  ngOnInit() {
+    this.bannerList = this.catalogService.getBanners();
+  }
 }
