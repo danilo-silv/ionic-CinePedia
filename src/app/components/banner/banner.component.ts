@@ -13,8 +13,9 @@ export class BannerComponent implements OnInit {
   public slidesOptions: SliderOptions = {
     slidesPerView: 1,
     spaceBetween: 10,
-    speed: 400,
+    speed: 800,
     pager: true,
+    autoplay: true,
   };
 
   constructor() {}

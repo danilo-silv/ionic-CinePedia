@@ -1,11 +1,5 @@
-<div class="content">
-  <!-- <div class="title ion-margin-vertical">
-    <span>Categoria</span>
-  </div> -->
-
-  <ion-slides class="ion-no-margin" [options]="sliderOptions">
-    <ion-slide *ngFor="let item of items" [class]="type">
-      <ion-img [src]="item.image"></ion-img>
-    </ion-slide>
-  </ion-slides>
-</div>
+<ion-slides [options]="sliderOptions" [pager]="sliderOptions.pager">
+  <ion-slide *ngFor="let item of banners" [class]="type">
+    <ion-img [src]="item.image"></ion-img>
+  </ion-slide>
+</ion-slides>
