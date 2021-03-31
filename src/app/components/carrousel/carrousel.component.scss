@@ -14,6 +14,40 @@
 
       &.banner {
         height: 180px;
+        position: relative;
+
+        .gradiant {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          height: 20px;
+          background-image: url("/assets/image/gradient.png");
+          background-size: cover;
+
+          &.top {
+            top: 0;
+            transform: rotate(180deg);
+          }
+
+          &.bottom {
+            bottom: 0;
+
+            .title {
+              position: absolute;
+              left: 0;
+              bottom: 60px;
+              width: 100%;
+
+              img {
+                display: flex;
+                justify-content: center;
+
+                width: 80%;
+                margin-left: auto;
+              }
+            }
+          }
+        }
       }
 
       &.card {
