@@ -1,9 +1,13 @@
 ion-header {
   ion-text {
-    font-family: "Nunito Sans", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 19px;
-    letter-spacing: -0.333333px;
+    > span {
+      font-family: "Nunito Sans", sans-serif !important;
+      font-style: normal;
+      font-weight: normal;
+
+      line-height: 19px;
+
+      letter-spacing: -0.333333px;
+    }
   }
 }
