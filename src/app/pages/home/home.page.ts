@@ -8,10 +8,12 @@ import { CatalogService } from 'src/app/service/catalog.service';
 })
 export class HomePage implements OnInit {
   public bannerList: Array<any>;
+  public cardsMovie: Array<any>;
 
   constructor(private catalogService: CatalogService) {}
 
   ngOnInit() {
     this.bannerList = this.catalogService.getBanners();
+    this.cardsMovie = this.catalogService.getCardsMovie();
   }
 }

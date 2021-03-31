@@ -11,18 +11,6 @@ export class CarrouselComponent implements OnInit {
   @Input() public type: string;
   @Input() public items: Array<any>;
 
-  banners = [
-    {
-      image: 'https://i.imgur.com/KBH13ag.jpg',
-    },
-    {
-      image: 'https://i.imgur.com/lnnou4s.jpg',
-    },
-    {
-      image: 'https://i.imgur.com/n7OKI77.jpg',
-    },
-  ];
-
   constructor() {}
 
   ngOnInit() {

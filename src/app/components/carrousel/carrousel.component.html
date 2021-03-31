@@ -4,8 +4,8 @@
   </div>
 
   <ion-slides [options]="sliderOptions" [pager]="sliderOptions.pager">
-    <ion-slide *ngFor="let item of banners" [class]="type">
-      <ion-img [src]="item.image"></ion-img>
+    <ion-slide *ngFor="let item of items" [class]="type">
+      <ion-img [src]="item.image" class="slider-image"></ion-img>
     </ion-slide>
   </ion-slides>
 </div>

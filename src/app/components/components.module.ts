@@ -6,6 +6,7 @@ import { HeaderComponent } from './header/header.component';
 import { CommonModule } from '@angular/common';
 import { CarrouselComponent } from './carrousel/carrousel.component';
 import { BannerComponent } from './banner/banner.component';
+import { CardCarrouselComponent } from './card-carrousel/card-carrousel.component';
 
 @NgModule({
   imports: [IonicModule, CommonModule],
@@ -15,6 +16,7 @@ import { BannerComponent } from './banner/banner.component';
     HeaderComponent,
     CarrouselComponent,
     BannerComponent,
+    CardCarrouselComponent,
   ],
   declarations: [
     LogoComponent,
@@ -22,6 +24,7 @@ import { BannerComponent } from './banner/banner.component';
     HeaderComponent,
     CarrouselComponent,
     BannerComponent,
+    CardCarrouselComponent,
   ],
 })
 export class ComponentsModule {}
