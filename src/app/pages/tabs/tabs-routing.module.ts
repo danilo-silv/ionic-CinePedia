@@ -14,6 +14,18 @@ const routes: Routes = [
           import('../home/home.module').then((m) => m.HomePageModule),
       },
       {
+        path: 'favorites',
+        loadChildren: () =>
+          import('../favorites/favorites.module').then(
+            (m) => m.FavoritesPageModule
+          ),
+      },
+      {
+        path: 'search',
+        loadChildren: () =>
+          import('../search/search.module').then((m) => m.SearchPageModule),
+      },
+      {
         path: '',
         redirectTo: '/cinepedia/home',
         pathMatch: 'full',
