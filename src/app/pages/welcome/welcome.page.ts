@@ -11,7 +11,7 @@ export class WelcomePage implements OnInit {
 
   ngOnInit() {
     setTimeout(() => {
-      this.router.navigate(['home']);
+      this.router.navigate(['cinepedia/home']);
     }, 5000);
   }
 }

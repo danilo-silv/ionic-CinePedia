@@ -13,8 +13,5 @@ export class CarrouselComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.items);
-    console.log(this.sliderOptions);
-  }
+  ngOnInit() {}
 }

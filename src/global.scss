@@ -34,3 +34,13 @@
 * {
   font-family: "Baloo Bhaina 2", cursive !important;
 }
+
+:root {
+  ion-tab-button.tab-selected {
+    ion-icon,
+    ion-label {
+      color: var(--ion-color-secondary) !important;
+      --ion-color-base: var(--ion-color-secondary) !important;
+    }
+  }
+}
