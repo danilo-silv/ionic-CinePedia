@@ -5,7 +5,7 @@ import { TabsPage } from './tabs.page';
 
 const routes: Routes = [
   {
-    path: 'cinepedia',
+    path: '',
     component: TabsPage,
     children: [
       {
@@ -14,20 +14,15 @@ const routes: Routes = [
           import('../home/home.module').then((m) => m.HomePageModule),
       },
       {
-        path: 'welcome',
-        loadChildren: () =>
-          import('../welcome/welcome.module').then((m) => m.WelcomePageModule),
-      },
-      {
         path: '',
-        redirectTo: '/cinepedia/welcome',
+        redirectTo: '/cinepedia/home',
         pathMatch: 'full',
       },
     ],
   },
   {
     path: '',
-    redirectTo: '/cinepedia/welcome',
+    redirectTo: 'cinepedia/home',
     pathMatch: 'full',
   },
 ];
