@@ -12,7 +12,7 @@ export class CardCarrouselComponent implements OnInit {
 
   public type: string = 'card';
   public slidesOptions: SliderOptions = {
-    slidesPerView: 3,
+    slidesPerView: 3.5,
     freeMode: true,
     spaceBetween: 10,
   };
