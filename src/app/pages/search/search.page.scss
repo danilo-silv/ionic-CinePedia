@@ -5,3 +5,16 @@ ion-searchbar {
   border-bottom: solid 0.2px;
   padding: 0;
 }
+
+ion-item {
+  --background: transparent;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.feedback-icon {
+  padding: 100px 0px;
+}

@@ -3,16 +3,40 @@
     <ion-row>
       <ion-col size="12">
         <ion-searchbar placeholder="O que você quer pesquisar?" color="primary" [(ngModel)]="currentSearch"
-          (ionChange)="updateFilter()">
+          (ionChange)="searchItem()">
         </ion-searchbar>
       </ion-col>
     </ion-row>
 
     <ion-row>
       <ion-col size="12">
-        <div>
-          TESTE
-        </div>
+        <ul *ngIf="filteredSearch.length > 0; else noSearch">
+          <li *ngFor="let search of filteredSearch">
+            <app-card-search title="{{search.title}}" image="{{search.image}}" description="{{search.description}}"
+              producer="{{search.producer}}"></app-card-search>
+          </li>
+        </ul>
+
+        <ng-template #noSearch>
+          <ion-row>
+            <ion-col size="12" class="feedback-icon">
+              <div *ngIf="currentSearch === ''; else notFound">
+                <ion-text color="medium" class="ion-text-center">
+                  <p>Busque um filme ou série</p>
+                </ion-text>
+                <app-search-illustration></app-search-illustration>
+              </div>
+              <ng-template #notFound>
+                <div>
+                  <ion-text color="medium" class="ion-text-center">
+                    <p>Não encontramos o que deseja</p>
+                  </ion-text>
+                  <app-not-found-illustration></app-not-found-illustration>
+                </div>
+              </ng-template>
+            </ion-col>
+          </ion-row>
+        </ng-template>
       </ion-col>
     </ion-row>
   </ion-grid>
