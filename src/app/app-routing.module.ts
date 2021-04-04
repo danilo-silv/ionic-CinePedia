@@ -13,7 +13,36 @@ const routes: Routes = [
       import('./pages/welcome/welcome.module').then((m) => m.WelcomePageModule),
   },
   {
+    path: 'details',
+    children: [
+      {
+        path: 'movie/:id',
+        loadChildren: () =>
+          import('./pages/details/details.module').then(
+            (m) => m.DetailsPageModule
+          ),
+      },
+      {
+        path: 'serie/:id',
+        loadChildren: () =>
+          import('./pages/details/details.module').then(
+            (m) => m.DetailsPageModule
+          ),
+      },
+      {
+        path: '',
+        redirectTo: 'welcome',
+        pathMatch: 'full',
+      },
+    ],
+  },
+  {
     path: '',
+    redirectTo: 'welcome',
+    pathMatch: 'full',
+  },
+  {
+    path: '**',
     redirectTo: 'welcome',
     pathMatch: 'full',
   },
