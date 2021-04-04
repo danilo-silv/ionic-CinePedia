@@ -20,19 +20,12 @@
         <ng-template #noSearch>
           <ion-row>
             <ion-col size="12" class="feedback-icon">
-              <div *ngIf="currentSearch === ''; else notFound">
-                <ion-text color="medium" class="ion-text-center">
-                  <p>Busque um filme ou série</p>
-                </ion-text>
-                <app-search-illustration></app-search-illustration>
-              </div>
+              <app-feedback-illustration *ngIf="currentSearch === ''; else notFound" messsage="Busque um filme ou série"
+                type="search">
+              </app-feedback-illustration>
               <ng-template #notFound>
-                <div>
-                  <ion-text color="medium" class="ion-text-center">
-                    <p>Não encontramos o que deseja</p>
-                  </ion-text>
-                  <app-not-found-illustration></app-not-found-illustration>
-                </div>
+                <app-feedback-illustration messsage="Não encontramos o que deseja" type="notFound">
+                </app-feedback-illustration>
               </ng-template>
             </ion-col>
           </ion-row>

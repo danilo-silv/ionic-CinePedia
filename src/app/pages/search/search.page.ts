@@ -15,7 +15,6 @@ export class SearchPage implements OnInit {
 
   ngOnInit() {
     this.searchList = this.catalogService.getCardsMovie();
-    console.log(this.searchList);
   }
 
   public searchItem() {
