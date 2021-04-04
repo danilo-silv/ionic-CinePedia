@@ -10,6 +10,7 @@ import { BannerComponent } from './banner/banner.component';
 import { CardCarrouselComponent } from './card-carrousel/card-carrousel.component';
 import { CardSearchComponent } from './card-search/card-search.component';
 import { NotFoundComponent } from './illustration/not-found/not-found.component';
+import { FeedbackIllustrationComponent } from './feedback-illustration/feedback-illustration.component';
 
 @NgModule({
   imports: [IonicModule, CommonModule],
@@ -18,6 +19,7 @@ import { NotFoundComponent } from './illustration/not-found/not-found.component'
     HomeCinemaComponent,
     SearchComponent,
     NotFoundComponent,
+    FeedbackIllustrationComponent,
     HeaderComponent,
     CarrouselComponent,
     BannerComponent,
@@ -29,6 +31,7 @@ import { NotFoundComponent } from './illustration/not-found/not-found.component'
     HomeCinemaComponent,
     SearchComponent,
     NotFoundComponent,
+    FeedbackIllustrationComponent,
     HeaderComponent,
     CarrouselComponent,
     BannerComponent,

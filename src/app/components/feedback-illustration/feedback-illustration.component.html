@@ -1,0 +1,9 @@
+<div>
+  <ion-text color="medium" class="ion-text-center">
+    <p>{{messsage}}</p>
+  </ion-text>
+  <div [ngSwitch]="type">
+    <app-not-found-illustration *ngSwitchCase="'notFound'"></app-not-found-illustration>
+    <app-search-illustration *ngSwitchCase="'search'"></app-search-illustration>
+  </div>
+</div>
