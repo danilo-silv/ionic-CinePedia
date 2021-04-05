@@ -17,6 +17,12 @@ export class SearchPage implements OnInit {
     this.catalogService
       .listMovies()
       .subscribe((data: ListProp[]) => (this.searchList = data));
+
+    this.catalogService
+      .listSeries()
+      .subscribe((data: ListProp[]) =>
+        data.map((item) => this.searchList.push(item))
+      );
   }
 
   public searchItem() {

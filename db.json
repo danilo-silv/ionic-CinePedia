@@ -48,6 +48,14 @@
       "description":
         "Akeem e Semmi estão de volta! No exuberante e majestoso país de Zamunda, o recém-coroado Rei Akeem (Eddie Murphy) e seu fiel confidente Semmi (Arsenio Hall) embarcam em uma nova e hilária aventura.",
       "producer": "Paramount Pictures"
+    },
+    {
+      "id": 7,
+      "image": "https://i.imgur.com/Quy14KC.jpg",
+      "title": "A Semana da Minha Vida",
+      "description":
+        "Will Hawkins é um adolescente rebelde que desafia a lei e precisa fazer uma escolha: ir para a detenção juvenil ou para um acampamento cristão.",
+      "producer": "Netflix"
     }
   ],
   "series":[
@@ -66,6 +74,70 @@
       "description":
         "O Mandaloriano está cercado por poderosos inimigos, incluindo um que sabe sobre seu passado, e está disposto a garantir que ele não tenha futuro.",
       "producer": "LucasFilm"
+    },
+    {
+      "id": 3,
+      "image": "https://i.imgur.com/j5CGcbY.jpg",
+      "title": "Vikings",
+      "description":
+        "Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico.",
+      "producer": "Shaw Media Corus Entertainment Octagon Films"
+    },
+    {
+      "id": 4,
+      "image": "https://i.imgur.com/GwWjMjd.jpg",
+      "title": "Flash",
+      "description":
+        "Barry enfrenta diversos assassinos que invadem a premiação onde ele acompanha Iris, mas os efeitos colaterais de seus novos superpoderes representam uma ameaça.",
+      "producer": "DC Films"
+    },
+    {
+      "id": 5,
+      "image": "https://i.imgur.com/sW8fqX0.jpg",
+      "title": "Falcão e o Soldado Invernal",
+      "description":
+        "Após os eventos de 'Vingadores: Ultimato', Sam Wilson/Falcão e Bucky Barnes/Soldado Invernal se unem em uma aventura que testa suas habilidades - e a paciência.",
+      "producer": "Marvel"
+    },
+    {
+      "id": 6,
+      "image": "https://i.imgur.com/ez91Aqs.jpg",
+      "title": "Superman & Lois",
+      "description":
+        "Clark Kent (Tyler Hoechlin), o Superman, maior herói do mundo, e sua companheira Lois Lane (Elizabeth Tulloch), uma famosa jornalista, se esforçam para lidar com o estresse e as complexidades cotidianas de serem pais que trabalham na sociedade.",
+      "producer": "Warner Bros"
+    },
+    {
+      "id": 7,
+      "image": "https://i.imgur.com/vtu3v4I.jpg",
+      "title": "The Good Doctor: O Bom Doutor",
+      "description":
+        "Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.",
+      "producer": "Shore Z Productio"
+    },
+    {
+      "id": 8,
+      "image": "https://i.imgur.com/y2015qM.jpg",
+      "title": "Riverdale",
+      "description":
+        "Enquanto tentam lidar com problemas típicos da adolescência como amor, sexo, escola e família, Archie e sua turma se envolvem em um grande mistério.",
+      "producer": "Warner Bros."
+    },
+    {
+      "id": 9,
+      "image": "https://i.imgur.com/b8JKtMO.jpg",
+      "title": "Formula 1: Dirigir para Viver",
+      "description":
+        "Pilotos, gestores e donos de equipes vivem grandes emoções – nas pistas e fora delas – durante uma implacável temporada de corridas de Fórmula 1.",
+      "producer": "Box to Box Film"
+    },
+    {
+      "id": 10,
+      "image": "https://i.imgur.com/RsSZtuz.jpg",
+      "title": "Grey's Anatomy",
+      "description":
+        "Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional.",
+      "producer": "Shonda Rhimes"
     }
   ],
   "banners":[
