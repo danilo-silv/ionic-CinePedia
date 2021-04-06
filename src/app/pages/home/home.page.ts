@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Banner, ListProp, Movie, Serie } from 'src/app/models/search';
+import { Banner, Movie, Serie } from 'src/app/models/search';
 import { CatalogService } from 'src/app/service/catalog.service';
 
 @Component({

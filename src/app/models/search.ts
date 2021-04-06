@@ -1,15 +1,24 @@
-export interface ListProp {
-  id: string;
-  title: string;
+export interface Actors {
+  name: string;
+  character: string;
   image: string;
-  description: string;
-  producer: string;
 }
 
 export interface Banner {
   image: string;
 }
 
-export type Movie = ListProp;
+export interface DetailItem {
+  id: string;
+  title: string;
+  image: string;
+  description: string;
+  producer: string;
+  creator: string;
+  evaluation: string;
+  actors: Actors[];
+}
 
-export type Serie = ListProp;
+export type Movie = DetailItem;
+
+export type Serie = DetailItem;

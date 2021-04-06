@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ListProp } from 'src/app/models/search';
+import { DetailItem } from 'src/app/models/search';
 import { CatalogService } from 'src/app/service/catalog.service';
 @Component({
   selector: 'app-search',
@@ -7,7 +7,7 @@ import { CatalogService } from 'src/app/service/catalog.service';
   styleUrls: ['./search.page.scss'],
 })
 export class SearchPage implements OnInit {
-  public searchList: ListProp[] = [];
+  public searchList: DetailItem[] = [];
   public currentSearch = '';
   public filteredSearch = this.searchList;
 
@@ -16,11 +16,11 @@ export class SearchPage implements OnInit {
   ngOnInit() {
     this.catalogService
       .listMovies()
-      .subscribe((data: ListProp[]) => (this.searchList = data));
+      .subscribe((data: DetailItem[]) => (this.searchList = data));
 
     this.catalogService
       .listSeries()
-      .subscribe((data: ListProp[]) =>
+      .subscribe((data: DetailItem[]) =>
         data.map((item) => this.searchList.push(item))
       );
   }
