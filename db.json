@@ -6,7 +6,41 @@
       "title": "Soul",
       "description":
         "Nesta animação da Pixar, Joe Gardner é um professor de música que recebe a chance de tocar na melhor casa de jazz da cidade.",
-      "producer": "Walt Disney Animation - PIXAR"
+      "producer": "Walt Disney Animation - PIXAR",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 2,
@@ -14,7 +48,41 @@
       "title": "Mulher Maravilha 1984",
       "description":
         "Na década de 1980, a Mulher-Maravilha enfrenta dois novos inimigos: Max Lord e Mulher-Leopardo.",
-      "producer": "DC Comics"
+      "producer": "DC Comics",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
 
     {
@@ -23,7 +91,41 @@
       "title": "Vingadores Ultimato",
       "description":
         "No final épico da Saga do Infinito, os Vingadores enfrentam Thanos. Quando eventos devastadores eliminam metade da população mundial e dividem suas fileiras, o resto dos heróis lutam para avançar.",
-      "producer": "Marvel Studios"
+      "producer": "Marvel Studios",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 4,
@@ -31,7 +133,41 @@
       "title": "Raya e o Último Dragão",
       "description":
         "Muito tempo atrás, humanos e dragões viviam juntos em harmonia no mundo de Kumandra. Mas a ameaça de uma força do mal fez com que os dragões se sacrificassem para salvar a humanidade.",
-      "producer": "Walt Walt Disney Animation Animation"
+      "producer": "Walt Walt Disney Animation Animation",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 5,
@@ -39,7 +175,41 @@
       "title": "Liga da Justiça de Zack Snyder",
       "description":
         "Impulsionado pela restauração de sua fé na humanidade e inspirado pelo ato altruísta do Superman, Bruce Wayne convoca sua nova aliada Diana Prince para o combate contra um inimigo ainda maior, recém-despertado.",
-      "producer": "Warner Bros"
+      "producer": "Warner Bros",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 6,
@@ -47,7 +217,41 @@
       "title": "Um Príncipe em Nova York 2",
       "description":
         "Akeem e Semmi estão de volta! No exuberante e majestoso país de Zamunda, o recém-coroado Rei Akeem (Eddie Murphy) e seu fiel confidente Semmi (Arsenio Hall) embarcam em uma nova e hilária aventura.",
-      "producer": "Paramount Pictures"
+      "producer": "Paramount Pictures",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 7,
@@ -55,7 +259,41 @@
       "title": "A Semana da Minha Vida",
       "description":
         "Will Hawkins é um adolescente rebelde que desafia a lei e precisa fazer uma escolha: ir para a detenção juvenil ou para um acampamento cristão.",
-      "producer": "Netflix"
+      "producer": "Netflix",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     }
   ],
   "series":[
@@ -65,7 +303,41 @@
       "title": "WandaVision (2021)",
       "description":
         "Wanda Maximoff e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece.",
-      "producer": "Marvel Studios"
+      "producer": "Marvel Studios",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 2,
@@ -73,7 +345,41 @@
       "title": "The Mandalorian",
       "description":
         "O Mandaloriano está cercado por poderosos inimigos, incluindo um que sabe sobre seu passado, e está disposto a garantir que ele não tenha futuro.",
-      "producer": "LucasFilm"
+      "producer": "LucasFilm",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 3,
@@ -81,7 +387,41 @@
       "title": "Vikings",
       "description":
         "Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas sonhadas por seu povo encontram-se além do mar Báltico.",
-      "producer": "Shaw Media Corus Entertainment Octagon Films"
+      "producer": "Shaw Media Corus Entertainment Octagon Films",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 4,
@@ -89,7 +429,41 @@
       "title": "Flash",
       "description":
         "Barry enfrenta diversos assassinos que invadem a premiação onde ele acompanha Iris, mas os efeitos colaterais de seus novos superpoderes representam uma ameaça.",
-      "producer": "DC Films"
+      "producer": "DC Films",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 5,
@@ -97,7 +471,41 @@
       "title": "Falcão e o Soldado Invernal",
       "description":
         "Após os eventos de 'Vingadores: Ultimato', Sam Wilson/Falcão e Bucky Barnes/Soldado Invernal se unem em uma aventura que testa suas habilidades - e a paciência.",
-      "producer": "Marvel"
+      "producer": "Marvel",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 6,
@@ -105,7 +513,41 @@
       "title": "Superman & Lois",
       "description":
         "Clark Kent (Tyler Hoechlin), o Superman, maior herói do mundo, e sua companheira Lois Lane (Elizabeth Tulloch), uma famosa jornalista, se esforçam para lidar com o estresse e as complexidades cotidianas de serem pais que trabalham na sociedade.",
-      "producer": "Warner Bros"
+      "producer": "Warner Bros",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 7,
@@ -113,7 +555,41 @@
       "title": "The Good Doctor: O Bom Doutor",
       "description":
         "Um jovem médico com autismo começa a trabalhar em um famoso hospital. Além dos desafios da profissão, ele terá também que provar sua capacidade a seus colegas e superiores.",
-      "producer": "Shore Z Productio"
+      "producer": "Shore Z Productio",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 8,
@@ -121,7 +597,41 @@
       "title": "Riverdale",
       "description":
         "Enquanto tentam lidar com problemas típicos da adolescência como amor, sexo, escola e família, Archie e sua turma se envolvem em um grande mistério.",
-      "producer": "Warner Bros."
+      "producer": "Warner Bros.",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 9,
@@ -129,7 +639,41 @@
       "title": "Formula 1: Dirigir para Viver",
       "description":
         "Pilotos, gestores e donos de equipes vivem grandes emoções – nas pistas e fora delas – durante uma implacável temporada de corridas de Fórmula 1.",
-      "producer": "Box to Box Film"
+      "producer": "Box to Box Film",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     },
     {
       "id": 10,
@@ -137,7 +681,41 @@
       "title": "Grey's Anatomy",
       "description":
         "Os médicos do Grey Sloan Memorial Hospital lidam diariamente com casos e consequências de vida ou morte. É um no outro que eles encontram apoio, conforto, amizade e, às vezes, até mais que amizade... Juntos, eles descobrem o quanto a vida profissional.",
-      "producer": "Shonda Rhimes"
+      "producer": "Shonda Rhimes",
+      "creator": "Jac Schaeffer",
+      "evaluation": "85",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     }
   ],
   "banners":[
