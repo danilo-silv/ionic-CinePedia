@@ -1,0 +1,32 @@
+<ion-grid class="ion-no-padding">
+  <ion-row>
+    <ion-col size="5">
+      <ion-img src=" {{data.image}}"></ion-img>
+    </ion-col>
+    <ion-col size="7">
+      <ion-text class="title">
+        <p>
+          {{data.title}}
+        </p>
+      </ion-text>
+      <ion-text class="description">
+        <ion-label>
+          Sinopse
+        </ion-label>
+        <p>
+          {{data.description}}
+        </p>
+      </ion-text>
+
+      <ion-text class="producer">
+        <ion-label>
+          Criação
+        </ion-label>
+
+        <div class="badge">
+          <p>{{data.creator}}</p>
+        </div>
+      </ion-text>
+    </ion-col>
+  </ion-row>
+</ion-grid>

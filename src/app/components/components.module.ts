@@ -11,6 +11,7 @@ import { CardCarrouselComponent } from './card-carrousel/card-carrousel.componen
 import { CardSearchComponent } from './card-search/card-search.component';
 import { NotFoundComponent } from './illustration/not-found/not-found.component';
 import { FeedbackIllustrationComponent } from './feedback-illustration/feedback-illustration.component';
+import { CardDetailComponent } from './card-detail/card-detail.component';
 
 @NgModule({
   imports: [IonicModule, CommonModule],
@@ -25,6 +26,7 @@ import { FeedbackIllustrationComponent } from './feedback-illustration/feedback-
     BannerComponent,
     CardCarrouselComponent,
     CardSearchComponent,
+    CardDetailComponent,
   ],
   declarations: [
     LogoComponent,
@@ -37,6 +39,7 @@ import { FeedbackIllustrationComponent } from './feedback-illustration/feedback-
     BannerComponent,
     CardCarrouselComponent,
     CardSearchComponent,
+    CardDetailComponent,
   ],
 })
 export class ComponentsModule {}
