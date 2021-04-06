@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
 import { take } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
-import { Banner, Movie, Serie } from '../models/search';
+import { Banner, DetailItem, Movie, Serie } from '../models/search';
 @Injectable({
   providedIn: 'root',
 })
@@ -16,10 +16,14 @@ export class CatalogService {
   }
 
   listMovies() {
-    return this.http.get<Movie[]>(`${this.url}/movies`).pipe(take(1));
+    return this.http.get<Movie[]>(`${this.url}/catalog`).pipe(take(1));
   }
 
   listSeries() {
-    return this.http.get<Serie[]>(`${this.url}/series`).pipe(take(1));
+    return this.http.get<Serie[]>(`${this.url}/catalog`).pipe(take(1));
+  }
+
+  getById(type: 'movie' | 'serie', id: string) {
+    return this.http.get<DetailItem>(`${this.url}/${type}/${id}`).pipe(take(1));
   }
 }

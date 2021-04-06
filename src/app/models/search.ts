@@ -10,6 +10,7 @@ export interface Banner {
 
 export interface DetailItem {
   id: string;
+  type: string;
   title: string;
   image: string;
   description: string;
