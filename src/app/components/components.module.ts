@@ -12,9 +12,35 @@ import { CardSearchComponent } from './card-search/card-search.component';
 import { NotFoundComponent } from './illustration/not-found/not-found.component';
 import { FeedbackIllustrationComponent } from './feedback-illustration/feedback-illustration.component';
 import { CardDetailComponent } from './card-detail/card-detail.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
-  imports: [IonicModule, CommonModule],
+  imports: [
+    IonicModule,
+    CommonModule,
+    NgCircleProgressModule.forRoot({
+      radius: 4,
+      backgroundStrokeWidth: 0,
+      backgroundPadding: 0,
+      // space: -3,
+      toFixed: 0,
+      maxPercent: 100,
+      outerStrokeWidth: 0,
+      outerStrokeColor: '#fff',
+      innerStrokeWidth: 2,
+      innerStrokeColor: '#ccc',
+      titleColor: '#fff',
+      animationDuration: 500,
+      animation: true,
+      startFromZero: false,
+      responsive: true,
+      showUnits: true,
+      showTitle: true,
+      showSubtitle: false,
+      showImage: false,
+      renderOnClick: false,
+    }),
+  ],
   exports: [
     LogoComponent,
     HomeCinemaComponent,
