@@ -8,6 +8,10 @@
       <div class="gradiant top"></div>
       <div class="gradiant bottom"></div>
       <ion-img [src]="item.image" class="slider-image"></ion-img>
+      <div *ngIf="item.character" class="info">
+        <p class="name">{{item.name}}</p>
+        <p class="character">{{item.character}}</p>
+      </div>
     </ion-slide>
   </ion-slides>
 </div>

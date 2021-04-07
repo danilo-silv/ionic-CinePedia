@@ -1,5 +1,9 @@
 <ion-content>
   <div class="detail ion-padding">
-    <app-card-detail></app-card-detail>
+    <app-card-detail [data]="data.details"></app-card-detail>
+  </div>
+
+  <div class="actors">
+    <app-card-carrousel title="Atores" [cardList]="data.actors"></app-card-carrousel>
   </div>
 </ion-content>

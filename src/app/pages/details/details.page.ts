@@ -11,7 +11,50 @@ import { CatalogService } from 'src/app/service/catalog.service';
 export class DetailsPage implements OnInit {
   public id: string;
 
-  public data: DetailItem;
+  public data = {
+    details: {
+      type: 'serie',
+      image: 'https://i.imgur.com/7ZyNbYo.jpg',
+      title: 'WandaVision (2021)',
+      description:
+        'Wanda Maximoff e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece.',
+      producer: 'Marvel Studios',
+      creator: 'Jac Schaeffer',
+      evaluation: '85',
+    },
+    actors: [
+      {
+        name: 'Elizabeth Olsen',
+        character: 'Wanda Maximoff / The Scarlet Witch',
+        image: 'https://i.imgur.com/oClroWv.jpg',
+      },
+      {
+        name: 'Paul Bettany',
+        character: 'Vision / The Vision',
+        image: 'https://i.imgur.com/56FCo14.jpg',
+      },
+      {
+        name: 'Kathryn Hahn',
+        character: 'Agatha Harkness / Agnes',
+        image: 'https://i.imgur.com/P2PF5P1.jpg',
+      },
+      {
+        name: 'Teyonah Parris',
+        character: 'Monica Rambeau / Geraldine',
+        image: 'https://i.imgur.com/TSv2a6n.jpg',
+      },
+      {
+        name: 'Randall Park',
+        character: 'Jimmy Woo',
+        image: 'https://i.imgur.com/gImXSnl.jpg',
+      },
+      {
+        name: 'Kat Dennings',
+        character: 'Darcy Lewis / The Escape Artist',
+        image: 'https://i.imgur.com/z8HJMq8.jpg',
+      },
+    ],
+  };
 
   constructor(
     private router: ActivatedRoute,
