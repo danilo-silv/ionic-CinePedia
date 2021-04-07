@@ -10,11 +10,22 @@
         </p>
       </ion-text>
 
-      <div class="progress-container">
-        <circle-progress [percent]="85" [showSubtitle]="false" titleFontSize="1" unitsFontSize="1"
-          titleFontWeight="bold" unitsColor="#fff" unitsFontWeight="bold">
-        </circle-progress>
+      <div class="flex">
+        <div class="progress-container">
+          <circle-progress percent="{{data.evaluation}}" [showSubtitle]="false" titleFontSize="16" titleColor="#fff"
+            unitsFontSize="16" titleFontWeight="bold" unitsColor="#fff" unitsFontWeight="bold">
+          </circle-progress>
+
+          <ion-text class="evaluation-text">
+            <p>Avaliação dos usuários</p>
+          </ion-text>
+        </div>
+
+        <ion-button>
+          <ion-icon name="heart-outline"></ion-icon>
+        </ion-button>
       </div>
+
 
       <ion-text class="description">
         <ion-label>

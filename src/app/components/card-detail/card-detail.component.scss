@@ -49,7 +49,7 @@ ion-row {
 
     &.description {
       display: block;
-      padding: 9px 0px 30px;
+      padding: 0px 0px 30px;
 
       p {
         font-size: 14px;
@@ -73,6 +73,51 @@ ion-row {
 
           padding: 5px 4px;
         }
+      }
+    }
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+
+    .progress-container {
+      display: flex;
+
+      circle-progress {
+        display: flex;
+      }
+
+      .evaluation-text {
+        p {
+          font-weight: 300;
+          font-size: 11px;
+          line-height: 12px;
+
+          width: 70px;
+
+          margin: 9px 0px 0px;
+        }
+      }
+    }
+
+    ion-button {
+      width: 34px;
+      height: 34px;
+
+      --border-radius: 100%;
+
+      --padding-bottom: 8px;
+      --padding-end: 8px;
+      --padding-start: 8px;
+      --padding-top: 8px;
+
+      margin: 9px 0px 0px;
+
+      --background: #c4c4c4;
+
+      ion-icon {
+        color: var(--ion-color-secondary);
       }
     }
   }
