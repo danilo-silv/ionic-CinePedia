@@ -9,8 +9,10 @@ import { SliderOptions } from 'src/app/models/slider-options';
 export class CardCarrouselComponent implements OnInit {
   @Input() public cardList: Array<any>; //changing type data berfore
   @Input() public title: string;
+  @Input() public customSliders: SliderOptions;
 
   public type: string = 'card';
+
   public slidesOptions: SliderOptions = {
     slidesPerView: 3.5,
     freeMode: true,
@@ -18,5 +20,7 @@ export class CardCarrouselComponent implements OnInit {
   };
   constructor() {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.slidesOptions = { ...this.slidesOptions, ...this.customSliders };
+  }
 }

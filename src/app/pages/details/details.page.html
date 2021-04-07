@@ -6,4 +6,9 @@
   <div class="actors">
     <app-card-carrousel title="Atores" [cardList]="data.actors"></app-card-carrousel>
   </div>
+
+  <div class="detail recommendations ">
+    <app-card-carrousel title="Recomendações" [cardList]="recommendations"
+      [customSliders]="sliderCustomRecommendations"></app-card-carrousel>
+  </div>
 </ion-content>

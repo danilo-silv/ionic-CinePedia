@@ -10,6 +10,21 @@ import { CatalogService } from 'src/app/service/catalog.service';
 })
 export class DetailsPage implements OnInit {
   public id: string;
+  public sliderCustomRecommendations = {
+    slidesPerView: 1.5,
+  };
+
+  public recommendations = [
+    {
+      image: 'https://i.imgur.com/KBH13ag.jpg',
+    },
+    {
+      image: 'https://i.imgur.com/lnnou4s.jpg',
+    },
+    {
+      image: 'https://i.imgur.com/n7OKI77.jpg',
+    },
+  ];
 
   public data = {
     details: {
