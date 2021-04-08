@@ -17,12 +17,18 @@ export class DetailsPage implements OnInit {
   public recommendations = [
     {
       image: 'https://i.imgur.com/KBH13ag.jpg',
+      name: 'The mandalorian',
+      evaluation: '75',
     },
     {
       image: 'https://i.imgur.com/lnnou4s.jpg',
+      name: 'Soldado invernal e falcão',
+      evaluation: '12',
     },
     {
       image: 'https://i.imgur.com/n7OKI77.jpg',
+      name: `ocean's 8`,
+      evaluation: '44',
     },
   ];
 
