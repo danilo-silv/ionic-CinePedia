@@ -26,6 +26,23 @@ const routes: Routes = [
           import('../search/search.module').then((m) => m.SearchPageModule),
       },
       {
+        path: 'details',
+        children: [
+          {
+            path: 'genre/:id',
+            loadChildren: () =>
+              import('../details/details.module').then(
+                (m) => m.DetailsPageModule
+              ),
+          },
+          {
+            path: '**',
+            redirectTo: 'welcome',
+            pathMatch: 'full',
+          },
+        ],
+      },
+      {
         path: '',
         redirectTo: '/cinepedia/home',
         pathMatch: 'full',
