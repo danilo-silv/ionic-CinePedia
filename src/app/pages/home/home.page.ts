@@ -42,9 +42,12 @@ export class HomePage implements OnInit {
         const list = genre.filter((e) => item.id === e.categorie);
         this.handleCategories(list, item.category);
       });
-    });
 
-    this.fetch = false;
+      //simulate request
+      setTimeout(() => {
+        this.fetch = false;
+      }, 3000);
+    });
   }
 
   handleCategories(list: any[], categorie: string) {
