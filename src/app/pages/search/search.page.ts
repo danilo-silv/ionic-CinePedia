@@ -15,14 +15,8 @@ export class SearchPage implements OnInit {
 
   ngOnInit() {
     this.catalogService
-      .listMovies()
+      .listGenre()
       .subscribe((data: DetailItem[]) => (this.searchList = data));
-
-    this.catalogService
-      .listSeries()
-      .subscribe((data: DetailItem[]) =>
-        data.map((item) => this.searchList.push(item))
-      );
   }
 
   public searchItem() {
