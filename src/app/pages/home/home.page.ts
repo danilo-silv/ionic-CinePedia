@@ -1,6 +1,24 @@
 import { Component, OnInit } from '@angular/core';
-import { Banner, Movie, Serie } from 'src/app/models/search';
+import { Banner } from 'src/app/models/search';
 import { CatalogService } from 'src/app/service/catalog.service';
+
+const CATEGORIES = [
+  {
+    name: 'Próximas Estreias',
+    category: 'premieres',
+    id: 1,
+  },
+  {
+    name: 'Filmes Bem Avaliados',
+    category: 'movies',
+    id: 2,
+  },
+  {
+    name: 'Séries em Alta',
+    category: 'series',
+    id: 3,
+  },
+];
 
 @Component({
   selector: 'app-home',
@@ -9,22 +27,32 @@ import { CatalogService } from 'src/app/service/catalog.service';
 })
 export class HomePage implements OnInit {
   public banners: Array<Banner>;
-  public movies: Array<Movie>;
-  public series: Array<Serie>;
+  public categories: any;
+  public fetch: boolean = true;
 
   constructor(private catalogService: CatalogService) {}
 
   ngOnInit() {
     this.catalogService
-      .listBanners()
+      .listBillboard()
       .subscribe((data: Banner[]) => (this.banners = data));
 
-    this.catalogService
-      .listMovies()
-      .subscribe((data: Movie[]) => (this.movies = data));
+    this.catalogService.listGenre().subscribe((genre: any[]) => {
+      CATEGORIES.map((item) => {
+        const list = genre.filter((e) => item.id === e.categorie);
+        this.handleCategories(list, item.category);
+      });
+    });
 
-    this.catalogService
-      .listSeries()
-      .subscribe((data: Serie[]) => (this.series = data));
+    this.fetch = false;
+  }
+
+  handleCategories(list: any[], categorie: string) {
+    this.categories = {
+      ...this.categories,
+      [`${categorie}`]: {
+        list: list,
+      },
+    };
   }
 }
