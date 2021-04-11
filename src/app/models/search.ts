@@ -5,21 +5,21 @@ export interface Actors {
 }
 
 export interface Banner {
+  id: number;
+  type: number;
   image: string;
+  link: string;
 }
 
 export interface DetailItem {
   id: string;
-  type: string;
+  type: number;
   title: string;
   image: string;
   description: string;
   producer: string;
   creator: string;
   evaluation: string;
+  link: string;
   actors: Actors[];
 }
-
-export type Movie = DetailItem;
-
-export type Serie = DetailItem;
