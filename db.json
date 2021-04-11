@@ -837,13 +837,13 @@
   "billboard": [
     {
       "id": 9,
-      "type": 1,
+      "type": 2,
       "image": "https://i.imgur.com/KBH13ag.jpg",
       "link": ""
     },
     {
       "id": 12,
-      "type": 1,
+      "type": 2,
       "image": "https://i.imgur.com/lnnou4s.jpg",
       "link": ""
     },
@@ -851,6 +851,36 @@
       "id": 18,
       "type": 1,
       "image": "https://i.imgur.com/n7OKI77.jpg",
+      "link": ""
+    },
+    {
+      "id": 1,
+      "type": 1,
+      "image": "https://i.imgur.com/y6UsctJ.jpg",
+      "link": ""
+    },
+    {
+      "id": 1,
+      "type": 1,
+      "image": "https://i.imgur.com/SQQgbbr.jpg",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "type": 1,
+      "image": "https://i.imgur.com/sDF4SQM.jpg",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "image": "https://i.imgur.com/0K99fhx.jpg",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "type": 1,
+      "image": "https://i.imgur.com/Nx2DTa0.jpg",
       "link": ""
     }
   ]
