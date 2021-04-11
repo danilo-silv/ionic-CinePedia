@@ -12,8 +12,7 @@
       <ion-col size="12">
         <ul *ngIf="filteredSearch.length > 0; else noSearch">
           <li *ngFor="let search of filteredSearch">
-            <app-card-search title="{{search.title}}" image="{{search.image}}" description="{{search.description}}"
-              producer="{{search.producer}}"></app-card-search>
+            <app-card-search [search]="search"></app-card-search>
           </li>
         </ul>
 

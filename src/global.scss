@@ -43,4 +43,8 @@
       --ion-color-base: var(--ion-color-secondary) !important;
     }
   }
+
+  ion-text {
+    display: block;
+  }
 }
