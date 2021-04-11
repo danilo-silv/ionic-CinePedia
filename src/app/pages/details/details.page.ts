@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { DetailItem } from 'src/app/models/search';
+import { DetailItem, Recommendations } from 'src/app/models/search';
 import { CatalogService } from 'src/app/service/catalog.service';
 
 @Component({
@@ -10,71 +10,12 @@ import { CatalogService } from 'src/app/service/catalog.service';
 })
 export class DetailsPage implements OnInit {
   public id: string;
+  public data: DetailItem;
+  public fetch: boolean = true;
+  public recommendations: Array<Recommendations> = [];
+
   public sliderCustomRecommendations = {
     slidesPerView: 1.5,
-  };
-
-  public recommendations = [
-    {
-      image: 'https://i.imgur.com/KBH13ag.jpg',
-      name: 'The mandalorian',
-      evaluation: '75',
-    },
-    {
-      image: 'https://i.imgur.com/lnnou4s.jpg',
-      name: 'Soldado invernal e falcão',
-      evaluation: '12',
-    },
-    {
-      image: 'https://i.imgur.com/n7OKI77.jpg',
-      name: `ocean's 8`,
-      evaluation: '44',
-    },
-  ];
-
-  public data = {
-    details: {
-      type: 'serie',
-      image: 'https://i.imgur.com/7ZyNbYo.jpg',
-      title: 'WandaVision (2021)',
-      description:
-        'Wanda Maximoff e Visão, um casal de super-heróis com uma vida perfeita, que começa a suspeitar que nem tudo é o que parece.',
-      producer: 'Marvel Studios',
-      creator: 'Jac Schaeffer',
-      evaluation: '85',
-    },
-    actors: [
-      {
-        name: 'Elizabeth Olsen',
-        character: 'Wanda Maximoff / The Scarlet Witch',
-        image: 'https://i.imgur.com/oClroWv.jpg',
-      },
-      {
-        name: 'Paul Bettany',
-        character: 'Vision / The Vision',
-        image: 'https://i.imgur.com/56FCo14.jpg',
-      },
-      {
-        name: 'Kathryn Hahn',
-        character: 'Agatha Harkness / Agnes',
-        image: 'https://i.imgur.com/P2PF5P1.jpg',
-      },
-      {
-        name: 'Teyonah Parris',
-        character: 'Monica Rambeau / Geraldine',
-        image: 'https://i.imgur.com/TSv2a6n.jpg',
-      },
-      {
-        name: 'Randall Park',
-        character: 'Jimmy Woo',
-        image: 'https://i.imgur.com/gImXSnl.jpg',
-      },
-      {
-        name: 'Kat Dennings',
-        character: 'Darcy Lewis / The Escape Artist',
-        image: 'https://i.imgur.com/z8HJMq8.jpg',
-      },
-    ],
   };
 
   constructor(
@@ -84,10 +25,20 @@ export class DetailsPage implements OnInit {
 
   ngOnInit() {
     this.router.params.subscribe((params: any) => {
-      console.log(params['id']);
-      // this.catalogService
-      // .getById()
-      // .subscribe((detail: DetailItem) => (this.data = detail));
+      this.catalogService
+        .getById(params['id'])
+        .subscribe((detail: DetailItem) => {
+          this.data = detail;
+
+          //simulate request
+          setTimeout(() => {
+            this.fetch = false;
+          }, 3000);
+        });
     });
+
+    this.catalogService
+      .listRecomendations()
+      .subscribe((data: Recommendations[]) => (this.recommendations = data));
   }
 }

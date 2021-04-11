@@ -1,6 +1,6 @@
-<ion-content>
+<ion-content *ngIf="!fetch">
   <div class="detail ion-padding">
-    <app-card-detail [data]="data.details"></app-card-detail>
+    <app-card-detail [data]="data"></app-card-detail>
   </div>
 
   <div class="actors">
