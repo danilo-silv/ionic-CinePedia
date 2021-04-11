@@ -4,7 +4,7 @@
   </div>
 
   <ion-slides [options]="sliderOptions" [pager]="sliderOptions.pager">
-    <ion-slide *ngFor="let item of items" [class]="type">
+    <ion-slide *ngFor="let item of items" [class]="type" (click)="handleClick(item.id)">
       <div class="gradiant top"></div>
       <div class="gradiant bottom"></div>
       <ion-img [src]="item.image" class="slider-image"></ion-img>

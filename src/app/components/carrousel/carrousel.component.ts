@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 import { SliderOptions } from 'src/app/models/slider-options';
 
 @Component({
@@ -11,7 +12,13 @@ export class CarrouselComponent implements OnInit {
   @Input() public type: string;
   @Input() public items: Array<any>;
 
-  constructor() {}
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
   ngOnInit() {}
+
+  handleClick(id: number) {
+    this.router.navigate([`../details/genre/${id}`], {
+      relativeTo: this.route,
+    });
+  }
 }
