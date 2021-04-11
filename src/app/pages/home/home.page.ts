@@ -35,7 +35,9 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.catalogService
       .listBillboard()
-      .subscribe((data: Recommendations[]) => (this.banners = data));
+      .subscribe(
+        (data: Recommendations[]) => (this.banners = data.slice(0, 3))
+      );
 
     this.catalogService.listGenre().subscribe((genre: any[]) => {
       CATEGORIES.map((item) => {
