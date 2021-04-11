@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Banner } from 'src/app/models/search';
+import { Recommendations } from 'src/app/models/search';
 import { CatalogService } from 'src/app/service/catalog.service';
 
 const CATEGORIES = [
@@ -26,7 +26,7 @@ const CATEGORIES = [
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
-  public banners: Array<Banner>;
+  public banners: Array<Recommendations>;
   public categories: any;
   public fetch: boolean = true;
 
@@ -35,7 +35,7 @@ export class HomePage implements OnInit {
   ngOnInit() {
     this.catalogService
       .listBillboard()
-      .subscribe((data: Banner[]) => (this.banners = data));
+      .subscribe((data: Recommendations[]) => (this.banners = data));
 
     this.catalogService.listGenre().subscribe((genre: any[]) => {
       CATEGORIES.map((item) => {

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Recommendations } from 'src/app/models/search';
 import { SliderOptions } from 'src/app/models/slider-options';
 
 @Component({
@@ -7,7 +8,7 @@ import { SliderOptions } from 'src/app/models/slider-options';
   styleUrls: ['./banner.component.scss'],
 })
 export class BannerComponent implements OnInit {
-  @Input() public bannerList: Array<any>; //changing type data berfore
+  @Input() public bannerList: Array<Recommendations>;
 
   public type: string = 'banner';
   public slidesOptions: SliderOptions = {

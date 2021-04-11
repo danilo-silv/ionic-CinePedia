@@ -4,7 +4,7 @@ export interface Actors {
   image: string;
 }
 
-export interface Banner {
+export interface Recommendations {
   id: number;
   type: number;
   image: string;
