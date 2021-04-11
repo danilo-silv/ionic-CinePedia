@@ -1,14 +1,69 @@
-<ion-content *ngIf="!fetch">
-  <div class="detail ion-padding">
-    <app-card-detail [data]="data"></app-card-detail>
+<ion-content>
+  <div *ngIf="!fetch">
+    <div class="detail ion-padding">
+      <app-card-detail [data]="data"></app-card-detail>
+    </div>
+
+    <div class="actors">
+      <app-card-carrousel title="Atores" [cardList]="data.actors"></app-card-carrousel>
+    </div>
+
+    <div class="detail recommendations ">
+      <app-card-carrousel title="Recomendações" [cardList]="recommendations"
+        [customSliders]="sliderCustomRecommendations"></app-card-carrousel>
+    </div>
   </div>
 
-  <div class="actors">
-    <app-card-carrousel title="Atores" [cardList]="data.actors"></app-card-carrousel>
-  </div>
+  <div *ngIf="fetch">
+    <div class="custom-skeleton">
+      <div class="padding details-skeleton">
+        <div>
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </div>
+        <div>
+          <h3>
+            <ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+          </h3>
+          <p>
+            <ion-skeleton-text animated style="width: 80%"></ion-skeleton-text>
+          </p>
+          <p>
+            <ion-skeleton-text animated style="width: 60%"></ion-skeleton-text>
+          </p>
 
-  <div class="detail recommendations ">
-    <app-card-carrousel title="Recomendações" [cardList]="recommendations"
-      [customSliders]="sliderCustomRecommendations"></app-card-carrousel>
+          <p>
+            <ion-skeleton-text animated style="width: 40%"></ion-skeleton-text>
+          </p>
+        </div>
+      </div>
+
+
+      <div class="list-skeleton">
+        <ion-text>
+          <h1 class="padding">
+            <ion-skeleton-text animated style="width: 20%"></ion-skeleton-text>
+          </h1>
+        </ion-text>
+
+        <div class="items-skeleton">
+          <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </div>
+
+        <ion-text>
+          <h1 class="padding">
+            <ion-skeleton-text animated style="width: 20%"></ion-skeleton-text>
+          </h1>
+        </ion-text>
+
+        <div class="items-skeleton">
+          <ion-skeleton-text animated style="width: 80%"></ion-skeleton-text>
+        </div>
+      </div>
+    </div>
+
   </div>
 </ion-content>
