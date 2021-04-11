@@ -764,6 +764,51 @@
           "image":  "https://i.imgur.com/z8HJMq8.jpg"
         }
       ]
+    },
+    {
+      "id": 18,
+      "categorie": 2,
+      "type": 1,
+      "image": "https://i.imgur.com/fBI4see.jpg",
+      "title": "A Semana da Minha Vida",
+      "description":
+        "Cinco anos, oito meses, 12 dias... em contagem regressiva. Este foi o tempo que Debbie Ocean levou para preparar o maior assalto da sua vida. Ela sabe que precisará de uma equipe com as melhores do métier, a começar pela sua parceira de crimes Lou Miller.",
+      "producer": "Village Roadshow Pictures",
+      "creator": "Gary Ross",
+      "evaluation": "70",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     }
   ],
   "recommendations":[
@@ -775,14 +820,14 @@
       "link": ""
     },
     {
-      "id": 2,
+      "id": 12,
       "image": "https://i.imgur.com/lnnou4s.jpg",
       "name": "Soldado invernal e falcão",
       "evaluation": "60",
       "link": ""
     },
     {
-      "id": 3,
+      "id": 18,
       "image": "https://i.imgur.com/n7OKI77.jpg'",
       "name": "ocean's 8",
       "evaluation": "75",
@@ -797,13 +842,13 @@
       "link": ""
     },
     {
-      "id": 1,
+      "id": 12,
       "type": 1,
       "image": "https://i.imgur.com/lnnou4s.jpg",
       "link": ""
     },
     {
-      "id": 1,
+      "id": 18,
       "type": 1,
       "image": "https://i.imgur.com/n7OKI77.jpg",
       "link": ""
