@@ -8,25 +8,40 @@
 
     <!-- <ion-row>
       <ion-col size="12">
-        <app-card-carrousel title="Meus Favoritos" [cardList]="movies"></app-card-carrousel>
+        <app-card-carrousel [title]="Meus Favoritos" [cardList]="movies"></app-card-carrousel>
       </ion-col>
     </ion-row> -->
 
     <ion-row *ngIf="categories?.premieres?.list.length">
       <ion-col size="12">
-        <app-card-carrousel title="Próxima Estreias" [cardList]="categories.premieres.list"></app-card-carrousel>
+        <app-card-carrousel [title]="categories.premieres.title" [cardList]="categories.premieres.list">
+        </app-card-carrousel>
       </ion-col>
     </ion-row>
 
     <ion-row *ngIf="categories?.movies?.list.length">
       <ion-col size="12">
-        <app-card-carrousel title="Filmes Bem Avaliados" [cardList]="categories.movies.list"></app-card-carrousel>
+        <app-card-carrousel [title]="categories.movies.title" [cardList]="categories.movies.list"></app-card-carrousel>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="categories?.exhibition?.list.length">
+      <ion-col size="12">
+        <app-card-carrousel [title]="categories.exhibition.title" [cardList]="categories.exhibition.list">
+        </app-card-carrousel>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngIf="categories?.evaluated?.list.length">
+      <ion-col size="12">
+        <app-card-carrousel [title]="categories.evaluated.title" [cardList]="categories.evaluated.list">
+        </app-card-carrousel>
       </ion-col>
     </ion-row>
 
     <ion-row *ngIf="categories?.series?.list.length">
       <ion-col size="12">
-        <app-card-carrousel title="Series em Alta" [cardList]="categories.series.list"></app-card-carrousel>
+        <app-card-carrousel [title]="categories.series.title" [cardList]="categories.series.list"></app-card-carrousel>
       </ion-col>
     </ion-row>
   </ion-grid>

@@ -13,11 +13,30 @@ const CATEGORIES = [
     name: 'Filmes Bem Avaliados',
     category: 'movies',
     id: 2,
+    type: 1,
   },
   {
     name: 'Séries em Alta',
     category: 'series',
     id: 3,
+    type: 2,
+  },
+  {
+    name: 'Mais Bem Avaliados',
+    category: 'evaluated',
+    id: 4,
+  },
+  {
+    name: 'Series em Exibição',
+    category: 'exhibition',
+    id: 5,
+    type: 2,
+  },
+  {
+    name: 'Filmes em Exibição',
+    category: 'exhibition',
+    id: 6,
+    type: 1,
   },
 ];
 
@@ -51,12 +70,21 @@ export class HomePage implements OnInit {
 
     this.catalogService.listGenre().subscribe((genre: any[]) => {
       CATEGORIES.map((item) => {
-        const list = genre.filter((e) => item.id === e.categorie);
-        this.handleCategories(list, item.category);
+        const list = genre.filter((e) => {
+          if (item.id === e.categorie) {
+            if (this.typePage == 0) {
+              return e;
+            } else if (this.typePage === e.type) {
+              return e;
+            }
+          }
+        });
+        this.handleCategories(list, item.category, item.name);
       });
 
       //simulate request
       setTimeout(() => {
+        console.log(this.categories);
         this.fetch = false;
       }, 3000);
     });
@@ -66,11 +94,12 @@ export class HomePage implements OnInit {
     return list.filter((data) => data.type === type);
   }
 
-  handleCategories(list: any[], categorie: string) {
+  handleCategories(list: any[], categorie: string, title: string) {
     this.categories = {
       ...this.categories,
       [`${categorie}`]: {
         list: list,
+        title,
       },
     };
   }
