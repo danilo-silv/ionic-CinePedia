@@ -92,7 +92,7 @@
     },
     {
       "id": 3,
-      "categorie": 1,
+      "categorie": 4,
       "type": 1,
       "image": "https://i.imgur.com/n633Iqf.jpg",
       "title": "Vingadores Ultimato",
@@ -632,7 +632,7 @@
     },
     {
       "id": 15,
-      "categorie": 3,
+      "categorie": 5,
       "type": 2,
       "image": "https://i.imgur.com/y2015qM.jpg",
       "title": "Riverdale",
@@ -809,6 +809,321 @@
           "image":  "https://i.imgur.com/z8HJMq8.jpg"
         }
       ]
+    },
+    {
+      "id": 19,
+      "categorie": 6,
+      "type": 1,
+      "image": "https://i.imgur.com/vGRhlwK.jpg",
+      "title": "O Agente da U.N.C.L.E.",
+      "description":
+        "urante a Guerra Fria, um agente da CIA e um agente da KGB decidem unir forças para se infiltrar em uma organização criminosa e perversa que planeja usar armas nucleares para acabar com o equilíbrio do poder.",
+      "producer": "Davis Entertainment",
+      "creator": "David C. Wilson",
+      "evaluation": "70",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "categorie": 4,
+      "type": 1,
+      "image": "https://i.imgur.com/LA57zPl.jpg",
+      "title": "O Poderoso Chefão",
+      "description":
+        "Após a máfia matar sua família, o jovem Vito foge da sua cidade na Sicília e vai para a América. Vito luta para manter sua família.",
+      "producer": "Paramount Pictures",
+      "creator": "Francis Ford Coppola",
+      "evaluation": "70",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "categorie": 4,
+      "type": 1,
+      "image": "https://i.imgur.com/JqDnpvH.jpg",
+      "title": "Parasita",
+      "description":
+        "Toda a família de Ki-taek está desempregada, vivendo num porão sujo e apertado. Uma obra do acaso faz com que o filho adolescente da família comece a dar aulas de inglês à garota de uma família rica.",
+      "producer": "barunson e&a",
+      "creator": "Bong Joon-ho",
+      "evaluation": "85",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "categorie": 4,
+      "type": 1,
+      "image": "https://i.imgur.com/r6F8DZn.jpg",
+      "title": "Batman: O Cavaleiro das Trevas",
+      "description":
+        "Após dois anos desde o surgimento do Batman, os criminosos de Gotham City têm muito o que temer.",
+      "producer": "DC Comics",
+      "creator": "Christopher Nolan",
+      "evaluation": "85",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "categorie": 4,
+      "type": 1,
+      "image": "https://i.imgur.com/IvN7tir.jpg",
+      "title": "Seven: Os Sete Crimes Capitais ",
+      "description":
+        "Quando, a ponto de se aposentar, o detetive William Somerset aborda o último caso com a ajuda do recém-transferido David Mills, eles descobrem uma série de assassinatos.",
+      "producer": "New Line Cinema",
+      "creator": "David Fincher",
+      "evaluation": "83",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "categorie": 4,
+      "type": 1,
+      "image": "https://i.imgur.com/edoBHGZ.jpg",
+      "title": "O Senhor dos Anéis: O Retorno do Rei",
+      "description":
+        "Quando, a ponto de se aposentar, o detetive William Somerset aborda o último caso com a ajuda do recém-transferido David Mills, eles descobrem uma série de assassinatos.",
+      "producer": "New Line Cinema",
+      "creator": "Peter Jackson",
+      "evaluation": "85",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "categorie": 1,
+      "type": 1,
+      "image": "https://i.imgur.com/da8rgt9.jpg",
+      "title": "Godzilla vs. Kong",
+      "description":
+        "Em uma época em que os monstros andam na Terra, a luta da humanidade por seu futuro coloca Godzilla e Kong em rota de colisão que verá as duas forças mais poderosas da natureza no planeta se confrontarem em uma batalha espetacular para as idades.",
+      "producer": "Warner Bros.",
+      "creator": "Adam Wingard",
+      "evaluation": "84",
+      "link": "",
+      "actors": [
+        {
+          "name": "Elizabeth Olsen",
+          "character": "Wanda Maximoff / The Scarlet Witch",
+          "image":  "https://i.imgur.com/oClroWv.jpg"
+        },
+        {
+          "name": "Paul Bettany",
+          "character": "Vision / The Vision",
+          "image":  "https://i.imgur.com/56FCo14.jpg"
+        },
+        {
+          "name": "Kathryn Hahn",
+          "character": "Agatha Harkness / Agnes",
+          "image":  "https://i.imgur.com/P2PF5P1.jpg"
+        },
+        {
+          "name": "Teyonah Parris",
+          "character": "Monica Rambeau / Geraldine",
+          "image":  "https://i.imgur.com/TSv2a6n.jpg"
+        },
+        {
+          "name": "Randall Park",
+          "character": "Jimmy Woo",
+          "image":  "https://i.imgur.com/gImXSnl.jpg"
+        },
+        {
+          "name": "Kat Dennings",
+          "character": "Darcy Lewis / The Escape Artist",
+          "image":  "https://i.imgur.com/z8HJMq8.jpg"
+        }
+      ]
     }
   ],
   "recommendations":[
@@ -854,7 +1169,7 @@
       "link": ""
     },
     {
-      "id": 1,
+      "id": 25,
       "type": 1,
       "image": "https://i.imgur.com/y6UsctJ.jpg",
       "link": ""

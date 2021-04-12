@@ -79,12 +79,14 @@ export class HomePage implements OnInit {
             }
           }
         });
-        this.handleCategories(list, item.category, item.name);
+
+        if (list.length) {
+          this.handleCategories(list, item.category, item.name);
+        }
       });
 
       //simulate request
       setTimeout(() => {
-        console.log(this.categories);
         this.fetch = false;
       }, 3000);
     });
