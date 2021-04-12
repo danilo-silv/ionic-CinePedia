@@ -4,10 +4,18 @@ ion-header {
       font-family: "Nunito Sans", sans-serif !important;
       font-style: normal;
       font-weight: normal;
+      font-size: 16px;
 
       line-height: 19px;
 
       letter-spacing: -0.333333px;
     }
+  }
+
+  ion-button {
+    --background: none;
+    --box-shadow: none;
+
+    text-transform: initial;
   }
 }

@@ -7,25 +7,31 @@
     </ion-row>
     <ion-row class="ion-text-center ion-align-items-center">
       <ion-col size="4">
-        <ion-text color="tertiary" class="font-weight-bold">
-          <span>
-            Início
-          </span>
-        </ion-text>
+        <ion-button (click)="handleClick('home')">
+          <ion-text [color]='typePage === 0 ? "secondary" : "tertiary"'>
+            <span>
+              Início
+            </span>
+          </ion-text>
+        </ion-button>
       </ion-col>
       <ion-col size="4">
-        <ion-text color="tertiary">
-          <span>
-            Filmes
-          </span>
-        </ion-text>
+        <ion-button (click)="handleClick('movie')">
+          <ion-text [color]='typePage === 1 ? "secondary" : "tertiary"'>
+            <span>
+              Filmes
+            </span>
+          </ion-text>
+        </ion-button>
       </ion-col>
       <ion-col size="4">
-        <ion-text color="tertiary">
-          <span>
-            Séries
-          </span>
-        </ion-text>
+        <ion-button (click)="handleClick('serie')">
+          <ion-text [color]='typePage === 2 ? "secondary" : "tertiary"'>
+            <span>
+              Séries
+            </span>
+          </ion-text>
+        </ion-button>
       </ion-col>
     </ion-row>
   </ion-grid>

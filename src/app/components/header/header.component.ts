@@ -1,5 +1,5 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -8,7 +8,10 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit, DoCheck {
   public showHeader: boolean = true;
-  constructor(private router: Router) {}
+  public typePage: number = 0;
+  constructor(private router: Router, private route: ActivatedRoute) {
+    this.typePage = this.route.snapshot.data['type'];
+  }
 
   ngOnInit() {}
 
@@ -19,5 +22,11 @@ export class HeaderComponent implements OnInit, DoCheck {
     } else {
       this.showHeader = true;
     }
+  }
+
+  handleClick(page: string): void {
+    this.router.navigate([`cinepedia/genre/${page}`], {
+      relativeTo: this.route,
+    });
   }
 }
