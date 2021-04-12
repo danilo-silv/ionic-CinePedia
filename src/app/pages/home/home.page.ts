@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { Recommendations } from 'src/app/models/search';
 import { CatalogService } from 'src/app/service/catalog.service';
 
@@ -28,16 +29,25 @@ const CATEGORIES = [
 export class HomePage implements OnInit {
   public banners: Array<Recommendations>;
   public categories: any;
+  public typePage: number;
   public fetch: boolean = true;
 
-  constructor(private catalogService: CatalogService) {}
+  constructor(
+    private catalogService: CatalogService,
+    private route: ActivatedRoute
+  ) {
+    this.typePage = this.route.snapshot.data['type'];
+  }
 
   ngOnInit() {
-    this.catalogService
-      .listBillboard()
-      .subscribe(
-        (data: Recommendations[]) => (this.banners = data.slice(0, 3))
-      );
+    this.catalogService.listBillboard().subscribe((data: Recommendations[]) => {
+      const page = this.typePage;
+      if (page != 0) {
+        this.banners = this.handleList(data, page);
+      } else {
+        this.banners = data.slice(0, 3);
+      }
+    });
 
     this.catalogService.listGenre().subscribe((genre: any[]) => {
       CATEGORIES.map((item) => {
@@ -50,6 +60,10 @@ export class HomePage implements OnInit {
         this.fetch = false;
       }, 3000);
     });
+  }
+
+  handleList(list: any[], type: number) {
+    return list.filter((data) => data.type === type);
   }
 
   handleCategories(list: any[], categorie: string) {

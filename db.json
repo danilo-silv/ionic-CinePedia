@@ -842,15 +842,15 @@
       "link": ""
     },
     {
-      "id": 12,
-      "type": 2,
-      "image": "https://i.imgur.com/lnnou4s.jpg",
-      "link": ""
-    },
-    {
       "id": 18,
       "type": 1,
       "image": "https://i.imgur.com/n7OKI77.jpg",
+      "link": ""
+    },
+    {
+      "id": 12,
+      "type": 2,
+      "image": "https://i.imgur.com/lnnou4s.jpg",
       "link": ""
     },
     {
@@ -861,7 +861,7 @@
     },
     {
       "id": 1,
-      "type": 1,
+      "type": 2,
       "image": "https://i.imgur.com/SQQgbbr.jpg",
       "link": ""
     },

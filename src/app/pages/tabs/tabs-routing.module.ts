@@ -9,9 +9,32 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'home',
-        loadChildren: () =>
-          import('../home/home.module').then((m) => m.HomePageModule),
+        path: 'genre',
+        children: [
+          {
+            path: 'home',
+            data: { type: 0 },
+            loadChildren: () =>
+              import('../home/home.module').then((m) => m.HomePageModule),
+          },
+          {
+            path: 'movie',
+            data: { type: 1 },
+            loadChildren: () =>
+              import('../home/home.module').then((m) => m.HomePageModule),
+          },
+          {
+            path: 'serie',
+            data: { type: 2 },
+            loadChildren: () =>
+              import('../home/home.module').then((m) => m.HomePageModule),
+          },
+          {
+            path: '',
+            redirectTo: 'home',
+            pathMatch: 'full',
+          },
+        ],
       },
       {
         path: 'favorites',
@@ -44,14 +67,14 @@ const routes: Routes = [
       },
       {
         path: '',
-        redirectTo: '/cinepedia/home',
+        redirectTo: '/cinepedia/genre',
         pathMatch: 'full',
       },
     ],
   },
   {
     path: '',
-    redirectTo: 'cinepedia/home',
+    redirectTo: 'cinepedia/genre',
     pathMatch: 'full',
   },
 ];
