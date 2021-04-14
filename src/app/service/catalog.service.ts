@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { environment } from 'src/environments/environment';
-import { take } from 'rxjs/operators';
+import { delay, take } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 import { Recommendations, DetailItem } from '../models/search';
 @Injectable({
@@ -18,7 +18,7 @@ export class CatalogService {
   }
 
   listGenre() {
-    return this.http.get(`${this.url}/genre`).pipe(take(1));
+    return this.http.get(`${this.url}/genre`).pipe(take(1), delay(3000));
   }
 
   listRecomendations() {
@@ -28,6 +28,8 @@ export class CatalogService {
   }
 
   getById(id: string) {
-    return this.http.get<DetailItem>(`${this.url}/genre/${id}`).pipe(take(1));
+    return this.http
+      .get<DetailItem>(`${this.url}/genre/${id}`)
+      .pipe(take(1), delay(3000));
   }
 }

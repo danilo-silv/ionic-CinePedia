@@ -29,11 +29,7 @@ export class DetailsPage implements OnInit {
         .getById(params['id'])
         .subscribe((detail: DetailItem) => {
           this.data = detail;
-
-          //simulate request
-          setTimeout(() => {
-            this.fetch = false;
-          }, 3000);
+          this.fetch = false;
         });
     });
 

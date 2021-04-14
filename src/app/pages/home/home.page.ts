@@ -85,10 +85,7 @@ export class HomePage implements OnInit {
         }
       });
 
-      //simulate request
-      setTimeout(() => {
-        this.fetch = false;
-      }, 3000);
+      this.fetch = false;
     });
   }
 
