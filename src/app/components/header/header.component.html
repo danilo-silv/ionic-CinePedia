@@ -7,30 +7,24 @@
     </ion-row>
     <ion-row class="ion-text-center ion-align-items-center">
       <ion-col size="4">
-        <ion-button (click)="handleClick('home')">
-          <ion-text [color]='typePage === 0 ? "secondary" : "tertiary"'>
-            <span>
-              Início
-            </span>
-          </ion-text>
+        <ion-button (click)="handleClick('home')" fill="clear" [color]='typePage === 0 ? "secondary" : "tertiary"'>
+          <span>
+            Início
+          </span>
         </ion-button>
       </ion-col>
       <ion-col size="4">
-        <ion-button (click)="handleClick('movie')">
-          <ion-text [color]='typePage === 1 ? "secondary" : "tertiary"'>
-            <span>
-              Filmes
-            </span>
-          </ion-text>
+        <ion-button (click)="handleClick('movie')" fill="clear" [color]='typePage === 1 ? "secondary" : "tertiary"'>
+          <span>
+            Filmes
+          </span>
         </ion-button>
       </ion-col>
       <ion-col size="4">
-        <ion-button (click)="handleClick('serie')">
-          <ion-text [color]='typePage === 2 ? "secondary" : "tertiary"'>
-            <span>
-              Séries
-            </span>
-          </ion-text>
+        <ion-button (click)="handleClick('serie')" fill="clear" [color]='typePage === 2 ? "secondary" : "tertiary"'>
+          <span>
+            Séries
+          </span>
         </ion-button>
       </ion-col>
     </ion-row>
