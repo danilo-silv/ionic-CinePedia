@@ -28,5 +28,13 @@ export class HeaderComponent implements OnInit, DoCheck {
     this.router.navigate([`cinepedia/genre/${page}`], {
       relativeTo: this.route,
     });
+
+    const home = document.getElementById('home');
+    const movie = document.getElementById('movie');
+    const serie = document.getElementById('serie');
+
+    if (page === 'home') {
+      home.classList.add('active');
+    }
   }
 }
