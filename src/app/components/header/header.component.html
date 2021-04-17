@@ -6,7 +6,7 @@
       </ion-col>
     </ion-row>
     <ion-row class="ion-text-center ion-align-items-center">
-      <ion-col size="4">
+      <ion-col size="4" id="home">
         <ion-button (click)="handleClick('home')">
           <ion-text [color]='typePage === 0 ? "secondary" : "tertiary"'>
             <span>
@@ -15,7 +15,7 @@
           </ion-text>
         </ion-button>
       </ion-col>
-      <ion-col size="4">
+      <ion-col size="4" id="movie">
         <ion-button (click)="handleClick('movie')">
           <ion-text [color]='typePage === 1 ? "secondary" : "tertiary"'>
             <span>
@@ -24,7 +24,7 @@
           </ion-text>
         </ion-button>
       </ion-col>
-      <ion-col size="4">
+      <ion-col size="4" id="serie">
         <ion-button (click)="handleClick('serie')">
           <ion-text [color]='typePage === 2 ? "secondary" : "tertiary"'>
             <span>
