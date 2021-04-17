@@ -18,4 +18,8 @@ ion-header {
 
     text-transform: initial;
   }
+
+  .active {
+    border-bottom: 3px solid rgb(251, 90, 0);
+  }
 }
