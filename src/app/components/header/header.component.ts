@@ -35,6 +35,16 @@ export class HeaderComponent implements OnInit, DoCheck {
 
     if (page === 'home') {
       home.classList.add('active');
+      movie.classList.remove('active');
+      serie.classList.remove('active');
+    } else if (page === 'movie') {
+      home.classList.remove('active');
+      movie.classList.add('active');
+      serie.classList.remove('active');
+    } else if (page === 'serie') {
+      home.classList.remove('active');
+      movie.classList.remove('active');
+      serie.classList.add('active');
     }
   }
 }
