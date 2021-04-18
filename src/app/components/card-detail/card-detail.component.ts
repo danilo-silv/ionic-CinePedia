@@ -9,11 +9,16 @@ import { StorageService } from 'src/app/service/storage.service';
 export class CardDetailComponent implements OnInit {
   @Input() public data: DetailItem;
 
+  public favotire: boolean = false
+
   constructor(private storage: StorageService) {}
   
   ngOnInit() {}
 
   async handleFavorite(id: number){
-   console.log(await this.storage.addFavorite(id))
+
+  this.favotire = !this.favotire
+
+  await this.storage.addFavorite(id)
   }
 }

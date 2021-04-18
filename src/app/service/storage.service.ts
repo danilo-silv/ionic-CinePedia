@@ -24,20 +24,34 @@ export class StorageService {
   public get(key: string) {
    return this._storage?.get(key);
   }
-
-  async addFavorite(id: number){
-    const aux = []
-
+  
+  async findOneFavorite(id: number){
     const favorites = await this.storage.get('favorites')
 
-    if(favorites?.length) {
-      favorites.map((e: number)=> aux.push(e))
+    if(!favorites?.length) return 
+
+    return favorites.find((i: number) => i === id)
+  }
+
+  async addFavorite(id: number){
+    const isFavorite = await this.findOneFavorite(id)
+
+    if(!isFavorite){
+      const aux = []
+
+      const favorites = await this.storage.get('favorites')
+  
+      if(favorites?.length) {
+        favorites.map((e: number)=> aux.push(e))
+      }
+  
+      aux.push(id)
+  
+      this.set('favorites', aux)
+  
+      return aux
     }
 
-    aux.push(id)
-
-    this.set('favorites', aux)
-
-    return aux
+    return
   }
 }
