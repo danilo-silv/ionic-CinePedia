@@ -1,5 +1,6 @@
 import { Component, DoCheck, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { getLastItemPath } from 'src/app/utils';
 
 @Component({
   selector: 'app-header',
@@ -8,20 +9,23 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit, DoCheck {
   public showHeader: boolean = true;
-  public typePage: number = 0;
-  constructor(private router: Router, private route: ActivatedRoute) {
-    this.typePage = this.route.snapshot.data['type'];
-  }
+  public typePage: string = 'home';
+
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
   ngOnInit() {}
 
   ngDoCheck() {
     const { url } = this.router;
-    if (url === '/' || url === '/welcome') {
+
+    const page = getLastItemPath(url);
+
+    if (page === '' || page === 'welcome') {
       this.showHeader = false;
     } else {
       this.showHeader = true;
     }
+    this.typePage = page;
   }
 
   handleClick(page: string): void {
