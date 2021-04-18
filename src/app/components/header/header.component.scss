@@ -12,6 +12,10 @@ ion-header {
     }
   }
 
+  .header-option {
+    border-bottom: 3px solid rgba(48, 46, 43, 0.5);
+  }
+
   ion-button {
     --background: none;
     --box-shadow: none;
