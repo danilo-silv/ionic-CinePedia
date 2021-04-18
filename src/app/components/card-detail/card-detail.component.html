@@ -21,7 +21,7 @@
           </ion-text>
         </div>
 
-        <ion-button size="small">
+        <ion-button size="small" (click)="handleFavorite(data.id)">
           <ion-icon [color]="data.favorite ? 'secondary' : 'white'" [name]="data.favorite ? 'heart' : 'heart-outline'">
           </ion-icon>
         </ion-button>

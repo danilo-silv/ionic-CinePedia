@@ -1,10 +1,12 @@
 import { Injectable } from '@angular/core';
+
 import { Storage } from '@ionic/storage-angular';
+
 @Injectable({
   providedIn: 'root'
 })
 export class StorageService {
-private _storage: Storage | null = null;
+  private _storage: Storage | null = null;
 
   constructor(private storage: Storage) {
     this.init();
@@ -20,6 +22,22 @@ private _storage: Storage | null = null;
   }
 
   public get(key: string) {
-    this._storage?.get(key);
+   return this._storage?.get(key);
+  }
+
+  async addFavorite(id: number){
+    const aux = []
+
+    const favorites = await this.storage.get('favorites')
+
+    if(favorites?.length) {
+      favorites.map((e: number)=> aux.push(e))
+    }
+
+    aux.push(id)
+
+    this.set('favorites', aux)
+
+    return aux
   }
 }
