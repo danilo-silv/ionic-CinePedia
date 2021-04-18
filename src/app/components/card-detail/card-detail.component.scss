@@ -41,7 +41,7 @@ ion-row {
       padding-bottom: 10px;
 
       p {
-        font-size: 18px;
+        font-size: 15px;
         font-weight: bold;
         line-height: 19px;
       }
@@ -102,23 +102,19 @@ ion-row {
     }
 
     ion-button {
-      width: 34px;
-      height: 34px;
+      // width: 34px;
+      // height: 34px;
 
       --border-radius: 100%;
 
-      --padding-bottom: 8px;
-      --padding-end: 8px;
-      --padding-start: 8px;
-      --padding-top: 8px;
+      --padding-bottom: 5px;
+      --padding-end: 5px;
+      --padding-start: 5px;
+      --padding-top: 5px;
 
       margin: 9px 0px 0px;
 
       --background: #c4c4c4;
-
-      ion-icon {
-        color: var(--ion-color-secondary);
-      }
     }
   }
 }

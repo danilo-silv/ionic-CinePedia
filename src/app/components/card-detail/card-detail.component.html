@@ -21,8 +21,9 @@
           </ion-text>
         </div>
 
-        <ion-button>
-          <ion-icon name="heart-outline"></ion-icon>
+        <ion-button size="small">
+          <ion-icon [color]="data.favorite ? 'secondary' : 'white'" [name]="data.favorite ? 'heart' : 'heart-outline'">
+          </ion-icon>
         </ion-button>
       </div>
 
