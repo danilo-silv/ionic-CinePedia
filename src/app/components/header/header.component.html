@@ -7,21 +7,21 @@
     </ion-row>
     <ion-row class="ion-text-center ion-align-items-center">
       <ion-col size="4" [class]='typePage === "home" ? "active" : "header-option"'>
-        <ion-button (click)="handleClick('home')" fill="clear" [color]='typePage === 0 ? "secondary" : "tertiary"'>
+        <ion-button (click)="handleClick('home')" fill="clear">
           <span>
             Início
           </span>
         </ion-button>
       </ion-col>
       <ion-col size="4" [class]='typePage === "movie" ? "active" : "header-option"'>
-        <ion-button (click)="handleClick('movie')" fill="clear" [color]='typePage === 1 ? "secondary" : "tertiary"'>
+        <ion-button (click)="handleClick('movie')" fill="clear">
           <span>
             Filmes
           </span>
         </ion-button>
       </ion-col>
       <ion-col size="4" [class]='typePage === "serie" ? "active" : "header-option"'>
-        <ion-button (click)="handleClick('serie')" fill="clear" [color]='typePage === 2 ? "secondary" : "tertiary"'>
+        <ion-button (click)="handleClick('serie')" fill="clear">
           <span>
             Séries
           </span>
