@@ -21,9 +21,12 @@ export class CardDetailComponent implements OnInit {
   }
 
   async handleFavorite(id: number){
+    this.favorite = !this.favorite
 
-  this.favorite = !this.favorite
-
-  await this.storage.addFavorite(id)
+    if(!this.favorite){
+      await this.storage.removeFavorite(id)
+    }else{
+      await this.storage.addFavorite(id)
+    }
   }
 }

@@ -54,4 +54,23 @@ export class StorageService {
 
     return
   }
+
+  async removeFavorite(id: number){
+    const isFavorite = await this.findOneFavorite(id)
+
+    if(isFavorite){
+
+      let favorites = await this.storage.get('favorites')
+  
+      if(favorites?.length) {
+        favorites = favorites.filter((e: number)=> id !== e)
+      }
+  
+      this.set('favorites', favorites)
+  
+      return favorites
+    }
+
+    return
+  }
 }
