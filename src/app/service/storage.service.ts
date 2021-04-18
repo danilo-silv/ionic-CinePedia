@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Storage } from '@ionic/storage';
-
 @Injectable({
   providedIn: 'root'
 })
@@ -16,8 +15,11 @@ private _storage: Storage | null = null;
     this._storage = storage;
   }
 
-
   public set(key: string, value: any) {
     this._storage?.set(key, value);
+  }
+
+  public get(key: string) {
+    this._storage?.get(key);
   }
 }
