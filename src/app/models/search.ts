@@ -12,7 +12,7 @@ export interface Recommendations {
 }
 
 export interface DetailItem {
-  id: string;
+  id: number;
   type: number;
   title: string;
   image: string;
