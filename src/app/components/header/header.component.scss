@@ -1,4 +1,34 @@
 ion-header {
+  ion-col {
+    text-transform: initial;
+
+    transition: all 0.3s ease-in-out;
+
+    &.header-option {
+      border-bottom: 3px solid rgba(48, 46, 43, 0.5);
+
+      ion-text {
+        color: var(--ion-color-tertiary);
+      }
+    }
+
+    &.active {
+      border-bottom: 1px solid var(--ion-color-secondary);
+
+      transform: scaleX(1);
+      transform-origin: 100% 50%;
+
+      ion-text {
+        color: var(--ion-color-secondary);
+      }
+    }
+  }
+
+  ion-button {
+    --background: none;
+    --box-shadow: none;
+  }
+
   ion-text {
     > span {
       font-family: "Nunito Sans", sans-serif !important;
@@ -10,25 +40,5 @@ ion-header {
 
       letter-spacing: -0.333333px;
     }
-  }
-
-  ion-button {
-    --background: none;
-    --box-shadow: none;
-
-    text-transform: initial;
-
-    color: var(--ion-color-tertiary);
-
-    transition: all 0.3s ease-in-out;
-  }
-
-  .active {
-    border-bottom: 1px solid var(--ion-color-secondary);
-
-    transform: scaleX(1);
-    transform-origin: 100% 50%;
-
-    color: var(--ion-color-secondary);
   }
 }

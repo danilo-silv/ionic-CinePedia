@@ -6,8 +6,8 @@
       </ion-col>
     </ion-row>
     <ion-row class="ion-text-center ion-align-items-center">
-      <ion-col size="4">
-        <ion-button (click)="handleClick('home')" [class]='typePage === "home" ? "active" : ""'>
+      <ion-col size="4" [class]='typePage === "home" ? "active" : "header-option"'>
+        <ion-button (click)="handleClick('home')">
           <ion-text>
             <span>
               Início
@@ -15,8 +15,8 @@
           </ion-text>
         </ion-button>
       </ion-col>
-      <ion-col size="4">
-        <ion-button (click)="handleClick('movie')" [class]='typePage === "movie" ? "active" : ""'>
+      <ion-col size="4" [class]='typePage === "movie" ? "active" : "header-option"'>
+        <ion-button (click)="handleClick('movie')">
           <ion-text>
             <span>
               Filmes
@@ -24,8 +24,8 @@
           </ion-text>
         </ion-button>
       </ion-col>
-      <ion-col size="4">
-        <ion-button (click)="handleClick('serie')" [class]='typePage === "serie" ? "active" : ""'>
+      <ion-col size="4" [class]='typePage === "serie" ? "active" : "header-option"'>
+        <ion-button (click)="handleClick('serie')">
           <ion-text>
             <span>
               Séries
