@@ -8,5 +8,10 @@
         </ion-col>
         <ion-col size="6"></ion-col>
     </ion-row>
+    <ion-row class="list">
+      <ion-col  *ngFor="let fav of favorites"  size="6">
+        <ion-img [src]="fav.image"></ion-img>
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>
