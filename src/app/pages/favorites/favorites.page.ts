@@ -14,12 +14,14 @@ import { CatalogService } from 'src/app/service/catalog.service';
 
 export class FavoritesPage implements OnInit {
   public favorites: Array<any>;
+  public fetch: boolean = true;
 
   constructor(private catalogService: CatalogService) { }
 
   ngOnInit() {
     this.catalogService.listGenre().subscribe((genre: any[])=>{
       this.favorites = genre
+      // this.fetch = false;
     });
   }
 

@@ -1,5 +1,5 @@
 <ion-content>
-  <ion-grid>
+  <ion-grid *ngIf="!fetch">
     <ion-row class="header">
         <ion-col size="6">
           <ion-text color="tertiary">
@@ -14,4 +14,31 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+  <div *ngIf="fetch">
+    <div class="custom-skeleton">
+      <div class="padding">
+        <ion-skeleton-text animated style="height: 180px"></ion-skeleton-text>
+      </div>
+
+
+      <div class="list-skeleton">
+
+        <div class="items-skeleton">
+          <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </div>
+
+        <div class="items-skeleton">
+          <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
+        </div>
+      </div>
+    </div>
+  </div>
 </ion-content>
