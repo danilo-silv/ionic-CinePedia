@@ -1,0 +1,15 @@
+ion-row{
+  &.header{
+    margin: 5px 0px 35px;
+
+    ion-text {
+      p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        letter-spacing: -0.333333px;
+        margin: 0px;
+      }
+    }
+  }
+}
