@@ -20,7 +20,7 @@ export class HeaderComponent implements OnInit, DoCheck {
 
     const page = getLastItemPath(url);
 
-    if (page === '' || page === 'welcome') {
+    if (page === '' || page === 'welcome' || page === 'favorites') {
       this.showHeader = false;
     } else {
       this.showHeader = true;
