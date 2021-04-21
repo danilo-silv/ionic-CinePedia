@@ -18,7 +18,7 @@ export class CatalogService {
   }
 
   listGenre() {
-    return this.http.get(`${this.url}/genre`).pipe(take(1), delay(3000));
+    return this.http.get(`${this.url}/genre`).pipe(take(1), delay(1500));
   }
 
   listRecomendations() {
