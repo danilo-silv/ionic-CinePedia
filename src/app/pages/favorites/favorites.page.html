@@ -1,25 +1,27 @@
 <ion-content>
   <ion-grid *ngIf="!fetch">
     <ion-row class="header">
-        <ion-col size="6">
-          <ion-text color="tertiary">
-            <p>Favoritos</p>
-          </ion-text>
-        </ion-col>
-        <ion-col size="6"></ion-col>
+      <ion-col size="6">
+        <ion-text color="tertiary">
+          <p>Favoritos</p>
+        </ion-text>
+      </ion-col>
+      <ion-col size="6"></ion-col>
     </ion-row>
     <ion-row class="list">
-      <ion-col  *ngFor="let fav of favorites"  size="6">
+      <ion-col *ngFor="let fav of favorites" size="6">
         <ion-img [src]="fav.image"></ion-img>
       </ion-col>
     </ion-row>
   </ion-grid>
   <div *ngIf="fetch">
     <div class="custom-skeleton">
-      <div class="padding">
-        <ion-skeleton-text animated style="height: 180px"></ion-skeleton-text>
-      </div>
+      <div class="header-loading">
+        <ion-skeleton-text animated style="width: 20%; height: 20px;" class="padding"></ion-skeleton-text>
 
+        <ion-skeleton-text animated style="width: 40%; height: 40px; border-radius: 8px;" class="padding">
+        </ion-skeleton-text>
+      </div>
 
       <div class="list-skeleton">
 
@@ -29,9 +31,13 @@
           <ion-skeleton-text animated></ion-skeleton-text>
 
           <ion-skeleton-text animated></ion-skeleton-text>
+
+          <ion-skeleton-text animated></ion-skeleton-text>
         </div>
 
         <div class="items-skeleton">
+          <ion-skeleton-text animated></ion-skeleton-text>
+
           <ion-skeleton-text animated></ion-skeleton-text>
 
           <ion-skeleton-text animated></ion-skeleton-text>

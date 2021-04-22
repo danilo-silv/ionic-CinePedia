@@ -1,6 +1,6 @@
-ion-row{
-  &.header{
-    margin: 0px 0px 15px;
+ion-row {
+  &.header {
+    margin: 30px 0px 15px;
 
     ion-text {
       p {
@@ -13,7 +13,7 @@ ion-row{
     }
   }
 
-  &.list{
+  &.list {
     ion-col {
       --ion-grid-column-padding: 4px;
 
@@ -22,47 +22,47 @@ ion-row{
       ion-img {
         width: 100%;
         height: 200px;
-    
+
         &::part(image) {
           object-fit: cover;
-    
+
           border-radius: 4px;
         }
       }
     }
   }
+}
 
+.custom-skeleton {
+  .padding {
+    padding: 5px 26px;
+  }
 
-  .custom-skeleton {
-    .padding {
-      padding: 5px;
-    }
-  
-    ion-skeleton-text {
-      line-height: 13px;
-    }
-  
-    .list-skeleton {
-      width: 100%;
-      .items-skeleton {
-        display: flex;
-        justify-content: space-between;
-  
-        ion-skeleton-text {
-          height: 200px;
-  
-          padding: 4px;
+  .header-loading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 24px 15px;
+  }
 
-          margin-bottom: 13px;
-  
-          border-radius: 8px;
-        }
+  ion-skeleton-text {
+    line-height: 13px;
+  }
+
+  .list-skeleton {
+    width: 100%;
+    .items-skeleton {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      ion-skeleton-text {
+        height: 200px;
+        width: 180px;
+        margin: 0px 4px 13px;
+
+        border-radius: 8px;
       }
     }
   }
-  
-  // .custom-skeleton ion-skeleton-text:last-child {
-  //   margin-bottom: 5px;
-  // }
-  
 }
