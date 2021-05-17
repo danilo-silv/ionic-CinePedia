@@ -10,7 +10,7 @@
     </ion-row>
     <ion-row class="list">
       <ion-col *ngFor="let fav of favorites" size="6">
-        <ion-img [src]="fav.image"></ion-img>
+        <ion-img [src]="fav.image" (click)="handleClick(fav.id)"></ion-img>
       </ion-col>
     </ion-row>
   </ion-grid>
