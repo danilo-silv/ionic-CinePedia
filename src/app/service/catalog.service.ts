@@ -30,6 +30,6 @@ export class CatalogService {
   getById(id: string) {
     return this.http
       .get<DetailItem>(`${this.url}/genre/${id}`)
-      .pipe(take(1), delay(3000));
+      .pipe(take(1), delay(1500));
   }
 }
