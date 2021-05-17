@@ -12,6 +12,7 @@ export class FavoritesPage implements OnInit {
   public favoriteList: Array<any>;
   public favorites: Array<any> = [];
   public fetch: boolean = true;
+  public emptyFavoriteList: boolean = false;
 
   constructor(
     private catalogService: CatalogService,
@@ -29,6 +30,7 @@ export class FavoritesPage implements OnInit {
   ionViewWillLeave() {
     this.favorites = [];
     this.fetch = true;
+    this.emptyFavoriteList = false;
   }
 
   handleFavorites() {
@@ -45,6 +47,8 @@ export class FavoritesPage implements OnInit {
 
   async getFavorites() {
     this.favoriteList = await this.storage.get('favorites');
+
+    if (!this.favoriteList.length) this.emptyFavoriteList = true;
   }
 
   checkFavorites() {

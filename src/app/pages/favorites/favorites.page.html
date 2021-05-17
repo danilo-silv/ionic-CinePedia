@@ -1,6 +1,10 @@
 <ion-content>
-  <ion-grid *ngIf="!fetch">
+  <ion-grid>
+
     <ion-row class="header">
+      <ion-col size="12">
+        <app-logo-illustration></app-logo-illustration>
+      </ion-col>
       <ion-col size="6">
         <ion-text color="tertiary">
           <p>Favoritos</p>
@@ -8,43 +12,37 @@
       </ion-col>
       <ion-col size="6"></ion-col>
     </ion-row>
-    <ion-row class="list">
+
+    <ion-row class="list" *ngIf="!fetch && !emptyFavoriteList">
       <ion-col *ngFor="let fav of favorites" size="6">
         <ion-img [src]="fav.image" (click)="handleClick(fav.id)"></ion-img>
       </ion-col>
     </ion-row>
-  </ion-grid>
-  <div *ngIf="fetch">
-    <div class="custom-skeleton">
-      <div class="header-loading">
-        <ion-skeleton-text animated style="width: 20%; height: 20px;" class="padding"></ion-skeleton-text>
 
-        <ion-skeleton-text animated style="width: 40%; height: 40px; border-radius: 8px;" class="padding">
-        </ion-skeleton-text>
-      </div>
+    <ion-row class="ion-justify-content-end" *ngIf="!fetch && emptyFavoriteList" style="margin: 10% auto;">
+      <ion-col>
+        <app-feedback-illustration messsage="Você não tem filmes ou séries favoritadas!" type="notFound">
+        </app-feedback-illustration>
+      </ion-col>
+    </ion-row>
 
-      <div class="list-skeleton">
+    <div *ngIf="fetch">
+      <div class="custom-skeleton">
+        <div class="list-skeleton">
 
-        <div class="items-skeleton">
-          <ion-skeleton-text animated></ion-skeleton-text>
+          <div class="items-skeleton">
+            <ion-skeleton-text animated></ion-skeleton-text>
 
-          <ion-skeleton-text animated></ion-skeleton-text>
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </div>
 
-          <ion-skeleton-text animated></ion-skeleton-text>
+          <div class="items-skeleton">
+            <ion-skeleton-text animated></ion-skeleton-text>
 
-          <ion-skeleton-text animated></ion-skeleton-text>
-        </div>
-
-        <div class="items-skeleton">
-          <ion-skeleton-text animated></ion-skeleton-text>
-
-          <ion-skeleton-text animated></ion-skeleton-text>
-
-          <ion-skeleton-text animated></ion-skeleton-text>
-
-          <ion-skeleton-text animated></ion-skeleton-text>
+            <ion-skeleton-text animated></ion-skeleton-text>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </ion-grid>
 </ion-content>

@@ -11,7 +11,5 @@ export class FeedbackIllustrationComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit() {
-    console.log(this.type);
-  }
+  ngOnInit() {}
 }
