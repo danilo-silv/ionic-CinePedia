@@ -8,8 +8,7 @@ export class HttpClientService {
   constructor(private http: HttpClient) {}
 
   private createHeader(headers?: HttpHeaders): HttpHeaders {
-    headers = headers.append('Content-Type', 'application/json');
-    return headers;
+    return headers?.append('Content-Type', 'application/json');
   }
 
   get(url: string, options?: HttpHeaders) {

@@ -7,7 +7,7 @@ import { CatalogService } from 'src/app/service/catalog.service';
   styleUrls: ['./search.page.scss'],
 })
 export class SearchPage implements OnInit {
-  public searchList: DetailItem[] = [];
+  public searchList: any = [];
   public currentSearch = '';
   public filteredSearch = this.searchList;
 
@@ -16,7 +16,7 @@ export class SearchPage implements OnInit {
   ngOnInit() {
     this.catalogService
       .listGenre()
-      .subscribe((data: DetailItem[]) => (this.searchList = data));
+      .subscribe((data) => (this.searchList = data.body));
   }
 
   public searchItem() {

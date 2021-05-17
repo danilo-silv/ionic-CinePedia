@@ -59,18 +59,20 @@ export class HomePage implements OnInit {
   }
 
   ngOnInit() {
-    this.catalogService.listBillboard().subscribe((data: Recommendations[]) => {
+    this.catalogService.listBillboard().subscribe((data: any = []) => {
+      const { body } = data;
       const page = this.typePage;
       if (page != 0) {
-        this.banners = this.handleList(data, page);
+        this.banners = this.handleList(body, page);
       } else {
-        this.banners = data.slice(0, 3);
+        this.banners = body.slice(0, 3);
       }
     });
 
-    this.catalogService.listGenre().subscribe((genre: any[]) => {
+    this.catalogService.listGenre().subscribe((genre: any = []) => {
+      const { body } = genre;
       CATEGORIES.map((item) => {
-        const list = genre.filter((e) => {
+        const list = body.filter((e) => {
           if (item.id === e.categorie) {
             if (this.typePage == 0) {
               return e;

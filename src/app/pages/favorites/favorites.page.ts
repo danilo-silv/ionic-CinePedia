@@ -8,9 +8,9 @@ import { StorageService } from 'src/app/service/storage.service';
   styleUrls: ['./favorites.page.scss'],
 })
 export class FavoritesPage implements OnInit {
-  public genres: Array<any>;
-  public favoriteList: Array<any>;
-  public favorites: Array<any> = [];
+  public genres: any = [];
+  public favoriteList: any = [];
+  public favorites: any = [];
   public fetch: boolean = true;
   public emptyFavoriteList: boolean = false;
 
@@ -38,8 +38,8 @@ export class FavoritesPage implements OnInit {
     this.getGenres();
   }
   getGenres() {
-    this.catalogService.listGenre().subscribe((genre: any[]) => {
-      this.genres = genre;
+    this.catalogService.listGenre().subscribe((genre) => {
+      this.genres = genre.body;
       this.checkFavorites();
       this.fetch = false;
     });

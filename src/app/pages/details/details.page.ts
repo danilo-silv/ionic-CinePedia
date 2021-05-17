@@ -10,9 +10,9 @@ import { CatalogService } from 'src/app/service/catalog.service';
 })
 export class DetailsPage implements OnInit {
   public id: string;
-  public data: DetailItem;
+  public data: any;
   public fetch: boolean = true;
-  public recommendations: Array<Recommendations> = [];
+  public recommendations: any = [];
 
   public sliderCustomRecommendations = {
     slidesPerView: 1.5,
@@ -25,16 +25,14 @@ export class DetailsPage implements OnInit {
 
   ngOnInit() {
     this.router.params.subscribe((params: any) => {
-      this.catalogService
-        .getById(params['id'])
-        .subscribe((detail: DetailItem) => {
-          this.data = detail;
-          this.fetch = false;
-        });
+      this.catalogService.getById(params['id']).subscribe((detail) => {
+        this.data = detail.body;
+        this.fetch = false;
+      });
     });
 
     this.catalogService
       .listRecomendations()
-      .subscribe((data: Recommendations[]) => (this.recommendations = data));
+      .subscribe((data) => (this.recommendations = data.body));
   }
 }
