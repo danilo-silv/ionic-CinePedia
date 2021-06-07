@@ -1,7 +1,4 @@
 <div class="content">
-  <div *ngIf="title" class="title ion-margin-vertical">
-    <span>{{title}}</span>
-  </div>
 
   <ion-slides [options]="sliderOptions" [pager]="sliderOptions.pager">
     <ion-slide *ngFor="let item of items" [class]="type" (click)="handleClick(item.id)">
