@@ -12,9 +12,8 @@
 
       <div class="flex">
         <div class="progress-container">
-          <circle-progress percent="{{data.evaluation != null ? data.evaluation : 0}}" [showSubtitle]=" false"
-            titleFontSize="16" titleColor="#fff" unitsFontSize="16" titleFontWeight="bold" unitsColor="#fff"
-            unitsFontWeight="bold">
+          <circle-progress percent={{data.evaluation}} [showSubtitle]=" false" titleFontSize="16" titleColor="#fff"
+            unitsFontSize="16" titleFontWeight="bold" unitsColor="#fff" unitsFontWeight="bold">
           </circle-progress>
 
           <ion-text class="evaluation-text">
