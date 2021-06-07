@@ -19,6 +19,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     IonicModule,
     CommonModule,
     NgCircleProgressModule.forRoot({
+      percent: 0,
       radius: 22,
       space: -3,
       outerStrokeWidth: 2.5,
