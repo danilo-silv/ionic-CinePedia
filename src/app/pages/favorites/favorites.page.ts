@@ -48,7 +48,7 @@ export class FavoritesPage implements OnInit {
   async getFavorites() {
     this.favoriteList = await this.storage.get('favorites');
 
-    if (!this.favoriteList.length) this.emptyFavoriteList = true;
+    if (!this.favoriteList?.length) this.emptyFavoriteList = true;
   }
 
   checkFavorites() {
